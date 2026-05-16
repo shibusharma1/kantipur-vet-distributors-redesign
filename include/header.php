@@ -2,266 +2,122 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>KPL</title>
-
-    <!-- Tailwind CDN -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantipur Vet Distributors</title>
+    <link rel="icon" type="image/png" href="assets/img/kantipurvet-logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/7254a5967d.js" crossorigin="anonymous"></script>
-
-    <!-- Tailwind Config -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-
                     colors: {
                         primary: '#342F7F',
                         secondary: '#BA0202',
-                        dark: '#111827',
-                        light: '#F8FAFC',
-                        border: '#E5E7EB',
-                    },
-
-                    fontFamily: {
-                        sans: ['Poppins', 'sans-serif'],
-                    },
-
-                    boxShadow: {
-                        soft: '0 10px 30px rgba(0,0,0,0.08)',
-                    },
-
-                    borderRadius: {
-                        xl2: '20px',
-                    },
-
-                    container: {
-                        center: true,
-                        padding: {
-                            DEFAULT: '1rem',
-                            lg: '2rem',
-                        },
                     }
-
                 }
             }
         }
     </script>
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Global Styles -->
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .section {
-            @apply py-16 lg:py-24;
-        }
-
-        .section-title {
-            @apply text-3xl lg:text-5xl font-bold text-primary leading-tight;
-        }
-
-        .section-subtitle {
-            @apply text-secondary uppercase tracking-widest text-sm font-semibold mb-3;
-        }
-
-        .primary-btn {
-            @apply inline-flex items-center gap-3 bg-primary text-white px-7 py-4 rounded-full hover:opacity-90 transition duration-300;
-        }
-
-        .secondary-btn {
-            @apply inline-flex items-center gap-3 bg-secondary text-white px-7 py-4 rounded-full hover:opacity-90 transition duration-300;
-        }
-
-        .card {
-            @apply bg-white rounded-2xl shadow-soft overflow-hidden;
-        }
-    </style>
-
+    <script src="https://kit.fontawesome.com/7254a5967d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../kantipur-vet-distributors-design-php/assets/css/style.css">
 </head>
 
-<body class="bg-white text-gray-700">
+<body class="bg-white">
 
-    <!-- Preloader -->
-    <div id="preloader"
-        class="fixed inset-0 bg-white z-[9999] flex items-center justify-center">
-
-        <img src="assets/img/kantipurvet-logo.jpg" alt="" class="w-[180px]">
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="assets/img/kantipurvet-logo.png" alt="" width="200">
+        </div>
     </div>
 
-    <!-- Header -->
-    <header class="sticky top-0 z-50 bg-white shadow-soft">
+    <!-- ===================== HEADER ===================== -->
+    <div id="main-header">
 
-        <div class="container">
-
-            <div class="flex items-center justify-between py-5">
-
-                <!-- Logo -->
-                <a href="index.php">
-                    <img src="assets/img/kantipurvet-logo.jpg"
-                        alt="Logo"
-                        class="w-[120px]">
-                </a>
-
-                <!-- Desktop Menu -->
-                <nav class="hidden lg:block">
-
-                    <ul class="flex items-center gap-8 font-medium">
-
-                        <li>
-                            <a href="about.php" class="hover:text-primary transition">
-                                About
+        <!-- Desktop -->
+        <div class="hidden lg:block">
+            <div class="max-w-screen-xl mx-auto px-6">
+                <nav class="flex items-center py-4 gap-10">
+                    <a href="index.php">
+                        <img src="assets/img/kantipurvet-logo.png" alt="" width="120">
+                    </a>
+                    <ul class="flex items-center gap-8 flex-1 justify-center list-none m-0 p-0">
+                        <li><a href="about.php" class="nav-link">About</a></li>
+                        <li><a href="mission.php" class="nav-link">Mission</a></li>
+                        <li class="has-dropdown">
+                            <a href="#" class="nav-link flex items-center gap-1">
+                                Product <i class="fa-solid fa-chevron-down text-xs"></i>
                             </a>
-                        </li>
-
-                        <li>
-                            <a href="mission.php" class="hover:text-primary transition">
-                                Mission
-                            </a>
-                        </li>
-
-                        <!-- Dropdown -->
-                        <li class="relative group">
-
-                            <button class="flex items-center gap-2 hover:text-primary transition">
-                                Product
-                                <i class="fa-solid fa-angle-down text-sm"></i>
-                            </button>
-
-                            <div class="absolute left-0 top-full invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-white shadow-soft rounded-2xl min-w-[240px] p-3">
-
-                                <a href="product-list.php"
-                                    class="block px-4 py-3 rounded-xl hover:bg-gray-100">
-                                    Feed Supplement
-                                </a>
-
-                                <a href="product-list.php"
-                                    class="block px-4 py-3 rounded-xl hover:bg-gray-100">
-                                    Allopathic
-                                </a>
-
-                                <a href="product-list.php"
-                                    class="block px-4 py-3 rounded-xl hover:bg-gray-100">
-                                    Marketing Division
-                                </a>
-
+                            <div class="dropdown-panel">
+                                <a href="product-list.php">Feed Supplement</a>
+                                <a href="product-list.php">Allopathic</a>
+                                <a href="product-list.php">Marketing Division</a>
                             </div>
-
                         </li>
-
-                        <li>
-                            <a href="blog.php" class="hover:text-primary transition">
-                                Blogs
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="career.php" class="hover:text-primary transition">
-                                Career
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="contact.php" class="hover:text-primary transition">
-                                Contact
-                            </a>
-                        </li>
-
+                        <li><a href="blog.php" class="nav-link">News / Blogs</a></li>
+                        <li><a href="career.php" class="nav-link">Career</a></li>
+                        <li><a href="contact.php" class="nav-link">Contact</a></li>
                     </ul>
-
+                    <div class="flex items-center gap-2 flex-shrink-0">
+                        <a href="" class="icon-btn bg-facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="icon-btn bg-instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="" class="icon-btn bg-twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="" class="icon-btn bg-youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </nav>
+            </div>
+        </div>
 
-                <!-- Right -->
-                <div class="hidden lg:flex items-center gap-3">
-
-                    <a href="#"
-                        class="w-10 h-10 rounded-xl bg-primary text-white flex items-center justify-center">
-                        <i class="fa-brands fa-facebook-f"></i>
+        <!-- Mobile -->
+        <div class="lg:hidden bg-white shadow">
+            <div class="max-w-screen-xl mx-auto px-4">
+                <nav class="flex items-center justify-between py-3">
+                    <a href="index.php">
+                        <img alt="" src="assets/img/kantipurvet-logo.png" width="120">
                     </a>
+                    <button id="offcanvas-toggle" class="px-4 py-2 border border-gray-300 rounded text-gray-700 text-sm" type="button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
 
-                    <a href="#"
-                        class="w-10 h-10 rounded-xl bg-secondary text-white flex items-center justify-center">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+    </div>
 
-                    <a href="#"
-                        class="w-10 h-10 rounded-xl bg-black text-white flex items-center justify-center">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
+    <!-- Off-canvas overlay -->
+    <div class="offcanvas-overlay" id="oc-overlay"></div>
 
-                </div>
-
-                <!-- Mobile Button -->
-                <button id="menuBtn"
-                    class="lg:hidden text-2xl">
-                    <i class="fa-solid fa-bars"></i>
+    <!-- Off-canvas panel -->
+    <div id="offcanvas-flip">
+        <div class="flex items-center justify-between p-4 border-b border-gray-100">
+            <a href="index.php"><img src="assets/img/kantipurvet-logo.png" alt="" width="120"></a>
+            <button id="offcanvas-close" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 text-gray-600">
+                <i class="fa-solid fa-times"></i>
+            </button>
+        </div>
+        <nav>
+            <a href="index.php" class="offcanvas-nav-link">Home</a>
+            <a href="about.php" class="offcanvas-nav-link">About</a>
+            <a href="mission.php" class="offcanvas-nav-link">Mission</a>
+            <div>
+                <button onclick="this.nextElementSibling.classList.toggle('hidden')" class="offcanvas-nav-link w-full text-left flex items-center justify-between">
+                    Product <i class="fa-solid fa-chevron-down text-xs"></i>
                 </button>
-
+                <div class="hidden bg-gray-50 pl-4">
+                    <a href="product-list.php" class="offcanvas-nav-link">Allopathic</a>
+                    <a href="product-list.php" class="offcanvas-nav-link">Allopathic</a>
+                    <a href="product-list.php" class="offcanvas-nav-link">Marketing Division</a>
+                </div>
             </div>
-
+            <a href="blog.php" class="offcanvas-nav-link">News / Blogs</a>
+            <a href="career.php" class="offcanvas-nav-link">Career</a>
+            <a href="contact.php" class="offcanvas-nav-link">Contact</a>
+        </nav>
+        <div class="p-4 flex gap-2">
+            <a href="" class="icon-btn bg-facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="icon-btn bg-instagram"><i class="fab fa-instagram"></i></a>
+            <a href="" class="icon-btn bg-twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="" class="icon-btn bg-youtube"><i class="fab fa-youtube"></i></a>
         </div>
-
-        <!-- Mobile Menu -->
-        <div id="mobileMenu"
-            class="hidden lg:hidden border-t bg-white">
-
-            <div class="container py-5 space-y-4">
-
-                <a href="index.php" class="block hover:text-primary">
-                    Home
-                </a>
-
-                <a href="about.php" class="block hover:text-primary">
-                    About
-                </a>
-
-                <a href="mission.php" class="block hover:text-primary">
-                    Mission
-                </a>
-
-                <a href="blog.php" class="block hover:text-primary">
-                    Blogs
-                </a>
-
-                <a href="career.php" class="block hover:text-primary">
-                    Career
-                </a>
-
-                <a href="contact.php" class="block hover:text-primary">
-                    Contact
-                </a>
-
-            </div>
-
-        </div>
-
-    </header>
-
-    <!-- Script -->
-    <script>
-        // Mobile Menu
-        const menuBtn = document.getElementById('menuBtn');
-        const mobileMenu = document.getElementById('mobileMenu');
-
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-
-        // Preloader
-        window.addEventListener('load', () => {
-            document.getElementById('preloader').style.display = 'none';
-        });
-    </script>
+    </div>
