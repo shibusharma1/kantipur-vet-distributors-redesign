@@ -1,5 +1,3 @@
----
-
 ````markdown
 # Kantipur Vet Distributors Website (PHP)
 
