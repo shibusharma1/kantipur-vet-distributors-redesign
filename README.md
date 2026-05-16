@@ -1,5 +1,3 @@
-Here’s a **professional and comprehensive `README.md`** you can use for your repository **[shibusharma1/kantipur-vet-distributors-design-php](https://github.com/shibusharma1/kantipur-vet-distributors-design-php)**. It follows best practices for clarity, structure, and usability, and you can edit the placeholders to match your project specifics. ([GitHub][1])
-
 ---
 
 ````markdown
