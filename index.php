@@ -23,7 +23,11 @@ include 'include/header.php';
 
             <div class="reveal">
                 <div class="relative">
-                    <img src="assets/img/about.webp" class="about-img" loading="lazy" alt="about">
+                    <img src="assets/img/about.webp" class="w-full h-[380px] object-cover 
+                   rounded-tl-[15px]
+                   rounded-tr-[15px]
+                   rounded-br-[15px]
+                   rounded-bl-[132px]" loading="lazy" alt="about">
                     <div class="circle-section">
                         <div class="circle-inner-section">
                             <p>12+ <br> Years</p>
