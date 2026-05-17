@@ -86,10 +86,6 @@ include 'include/header.php';
 
                     We provide a holistic range of products available from gut health to immunity, respiratory and liver health to growth. We curate nutritional solutions for the poultry industry’s evolving needs by making use of natural ingredients which are homogeneously combined.
 
-                    <!-- <br><br>
-
-                    Our range of swine feed additives and care products are made with herbal ingredients harnessed by advanced medical technology. We provide a holistic range of products available from gut health to immunity, respiratory and liver health to growth. -->
-
                 </p>
 
             </div>
@@ -108,11 +104,11 @@ include 'include/header.php';
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
 
             <!-- ========================= Sidebar ========================= -->
-           
+
             <?php
-             include '../kantipur-vet-distributors-design-php/include/product-sidebar.php';
+            include '../kantipur-vet-distributors-design-php/include/product-sidebar.php';
             ?>
-           
+
 
             <!-- ========================= Product Grid ========================= -->
             <div class="lg:col-span-3">
@@ -291,14 +287,7 @@ include 'include/header.php';
                 </div>
 
                 <!-- ========================= Pagination ========================= -->
-                <!-- <div class="flex justify-center mt-8">
-
-                    <div class="flex items-center gap-3"> -->
                 <?php include '../kantipur-vet-distributors-design-php/include/pagination.php'; ?>
-
-                <!-- </div>
-
-                </div> -->
 
             </div>
 

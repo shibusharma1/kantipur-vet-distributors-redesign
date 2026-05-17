@@ -110,37 +110,6 @@ include 'include/header.php';
     <div class="max-w-7xl mx-auto px-4 space-y-16">
 
         <!-- Row 1 -->
-        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-
-            <div class="order-2 lg:order-1 bg-gray-100 rounded-2xl p-8">
-                <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
-                    Future-Forward Vision
-                </h4>
-
-                <p class="text-gray-600 leading-7">
-                    We are on a strategic path toward achieving internationally recognized certifications:
-                </p>
-
-                <ol class="list-decimal pl-6 mt-4 space-y-2 text-gray-600">
-                    <li>ISO 9001 – Quality Management System (QMS)</li>
-                    <li>ISO 14001 – Environmental Management System (EMS)</li>
-                    <li>FAMI-QS – Feed Additive and Pre-Mixture Ingredients Quality System</li>
-                    <li>WHO-GMP – Allopathic Division Certification</li>
-                </ol>
-
-                <p class="text-gray-600 mt-5 leading-7">
-                    These milestones will further strengthen our commitment to global standards and sustainable growth.
-                </p>
-            </div>
-
-            <div class="order-1 lg:order-2 overflow-hidden rounded-2xl group">
-                <img 
-                    src="assets/img/commit.jpg"
-                    alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110"
-                >
-            </div>
-        </div> -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
             <!-- Text Box -->
@@ -176,36 +145,6 @@ include 'include/header.php';
         </div>
 
         <!-- Row 2 -->
-        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-
-            <div class="overflow-hidden rounded-2xl group">
-                <img
-                    src="assets/img/blog2.webp"
-                    alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
-            </div>
-
-            <div class="bg-gray-100 rounded-2xl p-8">
-                <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
-                    What Do We Do?
-                </h4>
-
-                <p class="text-gray-600 leading-7">
-                    We are on a strategic path toward achieving internationally recognized certifications:
-                </p>
-
-                <ol class="list-decimal pl-6 mt-4 space-y-2 text-gray-600">
-                    <li>ISO 9001 – Quality Management System (QMS)</li>
-                    <li>ISO 14001 – Environmental Management System (EMS)</li>
-                    <li>FAMI-QS – Feed Additive and Pre-Mixture Ingredients Quality System</li>
-                    <li>WHO-GMP – Allopathic Division Certification</li>
-                </ol>
-
-                <p class="text-gray-600 mt-5 leading-7">
-                    These milestones will further strengthen our commitment to global standards and sustainable growth.
-                </p>
-            </div>
-        </div> -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
             <!-- Image -->
@@ -241,36 +180,6 @@ include 'include/header.php';
         </div>
 
         <!-- Row 3 -->
-        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-
-            <div class="order-2 lg:order-1 bg-gray-100 rounded-2xl p-8">
-                <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
-                    Our Product Portfolio
-                </h4>
-
-                <p class="text-gray-600 leading-7">
-                    We are on a strategic path toward achieving internationally recognized certifications:
-                </p>
-
-                <ol class="list-decimal pl-6 mt-4 space-y-2 text-gray-600">
-                    <li>ISO 9001 – Quality Management System (QMS)</li>
-                    <li>ISO 14001 – Environmental Management System (EMS)</li>
-                    <li>FAMI-QS – Feed Additive and Pre-Mixture Ingredients Quality System</li>
-                    <li>WHO-GMP – Allopathic Division Certification</li>
-                </ol>
-
-                <p class="text-gray-600 mt-5 leading-7">
-                    These milestones will further strengthen our commitment to global standards and sustainable growth.
-                </p>
-            </div>
-
-            <div class="order-1 lg:order-2 overflow-hidden rounded-2xl group">
-                <img
-                    src="assets/img/blog1.png"
-                    alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
-            </div>
-        </div> -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
             <!-- Content -->
@@ -305,33 +214,6 @@ include 'include/header.php';
 
         </div>
         <!-- Row 4 -->
-        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-
-            <div class="overflow-hidden rounded-2xl group">
-                <img
-                    src="assets/img/vision.jpg"
-                    alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
-            </div>
-
-            <div class="bg-gray-100 rounded-2xl p-8">
-                <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
-                    Commitment
-                </h4>
-
-                <p class="text-gray-600 leading-7">
-                    With a heartfelt promise of “Caring and Curing Animal Health with Passion and Quality”, we continue to serve farmers, integrators, and veterinarians across Nepal.
-                </p>
-
-                <h4 class="text-2xl font-bold text-[#0d3b66] mt-8 mb-4">
-                    Our Core Beliefs
-                </h4>
-
-                <p class="text-gray-600 leading-7">
-                    We at KPL are united by a deep commitment to caring—for animals, for our customers, and for the communities we serve.
-                </p>
-            </div>
-        </div> -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
             <!-- Image -->

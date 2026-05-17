@@ -271,25 +271,6 @@ include 'include/header.php';
         </div>
 
         <!-- ========================= Pagination ========================= -->
-        <!-- <div class="flex justify-center mt-16">
-
-            <div class="flex items-center gap-3">
-
-                <a href="#" class="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-[#0d3b66] hover:text-white transition">
-                    1
-                </a>
-
-                <a href="#" class="w-12 h-12 rounded-full bg-[#0d3b66] text-white flex items-center justify-center">
-                    2
-                </a>
-
-                <a href="#" class="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-[#0d3b66] hover:text-white transition">
-                    3
-                </a>
-
-            </div>
-
-        </div> -->
         <?php include '../kantipur-vet-distributors-design-php/include/pagination.php'; ?>
 
     </div>
