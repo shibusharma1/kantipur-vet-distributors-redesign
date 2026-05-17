@@ -45,12 +45,12 @@ include 'include/header.php';
                 <div class="flex flex-wrap items-center gap-6 mt-6 text-sm uppercase text-gray-500">
 
                     <div class="flex items-center gap-2">
-                        <i class="fa-solid fa-user text-yellow-500"></i>
+                        <i class="fa-solid fa-user text-[var(--color-secondary)]"></i>
                         Admin Name
                     </div>
 
                     <div class="flex items-center gap-2">
-                        <i class="fa-solid fa-calendar text-yellow-500"></i>
+                        <i class="fa-solid fa-calendar text-[var(--color-secondary)]"></i>
                         27 August, 2025
                     </div>
 

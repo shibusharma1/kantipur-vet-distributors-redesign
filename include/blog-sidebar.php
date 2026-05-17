@@ -23,7 +23,7 @@
                      </div>
 
                      <div>
-                         <h4 class="font-bold text-[#0d3b66] leading-6 group-hover:text-yellow-500 transition">
+                         <h4 class="font-bold text-[#0d3b66] leading-6 group-hover:text-[var(--color-secondary)] transition">
                              Behavior and training animals
                          </h4>
 
@@ -45,7 +45,7 @@
                      </div>
 
                      <div>
-                         <h4 class="font-bold text-[#0d3b66] leading-6 group-hover:text-yellow-500 transition">
+                         <h4 class="font-bold text-[#0d3b66] leading-6 group-hover:text-[var(--color-secondary)] transition">
                              Advancing Animal Health
                          </h4>
 
@@ -67,7 +67,7 @@
                      </div>
 
                      <div>
-                         <h4 class="font-bold text-[#0d3b66] leading-6 group-hover:text-yellow-500 transition">
+                         <h4 class="font-bold text-[#0d3b66] leading-6 group-hover:text-[var(--color-secondary)] transition">
                              Trusted Veterinary Medicines
                          </h4>
 

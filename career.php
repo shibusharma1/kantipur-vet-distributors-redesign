@@ -79,7 +79,7 @@ include 'include/header.php';
                         <td class="px-6 py-6">
                             <button
                                 onclick="openModal()"
-                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-yellow-500 font-semibold transition">
+                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-[var(--color-secondary)] font-semibold transition">
                                 Apply Now
                                 <i class="fa-solid fa-angle-right"></i>
                             </button>
@@ -105,7 +105,7 @@ include 'include/header.php';
                         <td class="px-6 py-6">
                             <button
                                 onclick="openModal()"
-                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-yellow-500 font-semibold transition">
+                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-[var(--color-secondary)] font-semibold transition">
                                 Apply Now
                                 <i class="fa-solid fa-angle-right"></i>
                             </button>
@@ -131,7 +131,7 @@ include 'include/header.php';
                         <td class="px-6 py-6">
                             <button
                                 onclick="openModal()"
-                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-yellow-500 font-semibold transition">
+                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-[var(--color-secondary)] font-semibold transition">
                                 Apply Now
                                 <i class="fa-solid fa-angle-right"></i>
                             </button>

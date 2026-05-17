@@ -33,7 +33,7 @@
     </div>
 
     <!-- ===================== HEADER ===================== -->
-    <div id="main-header">
+    <div id="main-header" class="scrolled">
 
         <!-- Desktop -->
         <div class="hidden lg:block">

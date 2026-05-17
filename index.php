@@ -287,7 +287,7 @@ include 'include/header.php';
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
             <div class="md:col-span-2 reveal">
                 <h3 class="mb-1 border-secondary">our blogs</h3>
-                <h2 class="mt-0 text-3xl font-bold" style="color:var(--color-primary)">Latest News &amp; Update</h2>
+                <h3 class="mt-0 text-3xl font-bold" style="color:var(--color-primary)">Latest News &amp; Update</h3>
             </div>
             <div class="hidden md:flex items-center justify-end reveal">
 
@@ -328,7 +328,7 @@ include 'include/header.php';
                         <span><i class="fa-solid fa-calendar mr-1" style="color:var(--color-secondary)"></i>27 August, 2025</span>
                     </div>
                     <a href="blog-detail.php" class="blog-text">
-                        <h2 class="text-lg font-bold mb-1 two-line">Behavior and training animals</h2>
+                        <h3 class="text-lg font-bold mb-1 two-line">Behavior and training animals</h3>
                     </a>
                     <p class="text-sm text-gray-500 two-line mb-4">What Every Pet Owner Needs to Know Owning a pet is a rewarding experience, but it also comes with important responsibilities Pet Owner Needs to Know Owning a pet is a rewarding experience.</p>
                     <a href="blog-detail.php"
@@ -367,7 +367,7 @@ include 'include/header.php';
                                 <span><i class="fa-solid fa-calendar mr-1" style="color:var(--color-secondary)"></i>27 August, 2025</span>
                             </div>
                             <a href="blog-detail.php" class="blog-text">
-                                <h2 class="text-base font-bold two-line m-0">Behavior and training animals</h2>
+                                <h3 class="text-base font-bold two-line m-0">Behavior and training animals</h3>
                             </a>
                         </div>
                     </div>
@@ -384,7 +384,7 @@ include 'include/header.php';
                                 <span><i class="fa-solid fa-calendar mr-1" style="color:var(--color-secondary)"></i>27 August, 2025</span>
                             </div>
                             <a href="blog-detail.php" class="blog-text">
-                                <h2 class="text-base font-bold two-line m-0">Behavior and training animals</h2>
+                                <h3 class="text-base font-bold two-line m-0">Behavior and training animals</h3>
                             </a>
                         </div>
                     </div>
@@ -401,7 +401,7 @@ include 'include/header.php';
                                 <span><i class="fa-solid fa-calendar mr-1" style="color:var(--color-secondary)"></i>27 August, 2025</span>
                             </div>
                             <a href="blog-detail.php" class="blog-text">
-                                <h2 class="text-base font-bold two-line m-0">Behavior and training animals</h2>
+                                <h3 class="text-base font-bold two-line m-0">Behavior and training animals</h3>
                             </a>
                         </div>
                     </div>
@@ -418,7 +418,7 @@ include 'include/header.php';
                                 <span><i class="fa-solid fa-calendar mr-1" style="color:var(--color-secondary)"></i>27 August, 2025</span>
                             </div>
                             <a href="blog-detail.php" class="blog-text">
-                                <h2 class="text-base font-bold two-line m-0">Behavior and training animals Behavior and training animals</h2>
+                                <h3 class="text-base font-bold two-line m-0">Behavior and training animals Behavior and training animals</h3>
                             </a>
                         </div>
                     </div>

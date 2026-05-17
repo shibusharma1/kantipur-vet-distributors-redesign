@@ -48,12 +48,12 @@ include 'include/header.php';
                     <div class="flex flex-wrap items-center gap-5 text-sm uppercase text-gray-500">
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-user text-yellow-500"></i>
+                            <i class="fa-solid fa-user text-[var(--color-secondary)]"></i>
                             Admin Name
                         </div>
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-calendar text-yellow-500"></i>
+                            <i class="fa-solid fa-calendar text-[var(--color-secondary)]"></i>
                             27 August, 2025
                         </div>
 
@@ -61,7 +61,7 @@ include 'include/header.php';
 
                     <!-- Title -->
                     <a href="blog-detail.php">
-                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-[var(--color-secondary)] transition">
                             Behavior and training animals
                         </h3>
                     </a>
@@ -109,19 +109,19 @@ include 'include/header.php';
                     <div class="flex flex-wrap items-center gap-5 text-sm uppercase text-gray-500">
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-user text-yellow-500"></i>
+                            <i class="fa-solid fa-user text-[var(--color-secondary)]"></i>
                             Admin Name
                         </div>
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-calendar text-yellow-500"></i>
+                            <i class="fa-solid fa-calendar text-[var(--color-secondary)]"></i>
                             27 August, 2025
                         </div>
 
                     </div>
 
                     <a href="blog-detail.php">
-                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-[var(--color-secondary)] transition">
                             Advancing Animal Health: The Future of Veterinary Medicines
                         </h3>
                     </a>
@@ -167,19 +167,19 @@ include 'include/header.php';
                     <div class="flex flex-wrap items-center gap-5 text-sm uppercase text-gray-500">
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-user text-yellow-500"></i>
+                            <i class="fa-solid fa-user text-[var(--color-secondary)]"></i>
                             Admin Name
                         </div>
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-calendar text-yellow-500"></i>
+                            <i class="fa-solid fa-calendar text-[var(--color-secondary)]"></i>
                             27 August, 2025
                         </div>
 
                     </div>
 
                     <a href="blog-detail.php">
-                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-[var(--color-secondary)] transition">
                             Safe & Effective Solutions for Livestock Care
                         </h3>
                     </a>
@@ -225,19 +225,19 @@ include 'include/header.php';
                     <div class="flex flex-wrap items-center gap-5 text-sm uppercase text-gray-500">
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-user text-yellow-500"></i>
+                            <i class="fa-solid fa-user text-[var(--color-secondary)]"></i>
                             Admin Name
                         </div>
 
                         <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-calendar text-yellow-500"></i>
+                            <i class="fa-solid fa-calendar text-[var(--color-secondary)]"></i>
                             27 August, 2025
                         </div>
 
                     </div>
 
                     <a href="blog-detail.php">
-                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-[#0d3b66] mt-0 line-clamp-2 hover:text-[var(--color-secondary)] transition">
                             Trusted Veterinary Medicines for Every Species
                         </h3>
                     </a>

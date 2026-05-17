@@ -270,13 +270,13 @@ include 'include/header.php';
 
                 <div class="mt-5">
 
-                    <span class="text-sm uppercase tracking-wide text-yellow-500 font-semibold">
+                    <span class="text-sm uppercase tracking-wide text-[var(--color-secondary)] font-semibold">
                         Brand Name
                     </span>
 
                     <a href="product-detail.php">
 
-                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-yellow-500 transition">
+                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-[var(--color-secondary)] transition">
                             Product Name
                         </h3>
 
@@ -309,13 +309,13 @@ include 'include/header.php';
 
                 <div class="mt-5">
 
-                    <span class="text-sm uppercase tracking-wide text-yellow-500 font-semibold">
+                    <span class="text-sm uppercase tracking-wide text-[var(--color-secondary)] font-semibold">
                         Brand Name
                     </span>
 
                     <a href="product-detail.php">
 
-                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-yellow-500 transition">
+                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-[var(--color-secondary)] transition">
                             Product Name
                         </h3>
 
@@ -348,13 +348,13 @@ include 'include/header.php';
 
                 <div class="mt-5">
 
-                    <span class="text-sm uppercase tracking-wide text-yellow-500 font-semibold">
+                    <span class="text-sm uppercase tracking-wide text-[var(--color-secondary)] font-semibold">
                         Brand Name
                     </span>
 
                     <a href="product-detail.php">
 
-                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-yellow-500 transition">
+                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-[var(--color-secondary)] transition">
                             Product Name
                         </h3>
 
@@ -387,13 +387,13 @@ include 'include/header.php';
 
                 <div class="mt-5">
 
-                    <span class="text-sm uppercase tracking-wide text-yellow-500 font-semibold">
+                    <span class="text-sm uppercase tracking-wide text-[var(--color-secondary)] font-semibold">
                         Brand Name
                     </span>
 
                     <a href="product-detail.php">
 
-                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-yellow-500 transition">
+                        <h3 class="text-2xl font-bold text-[#0d3b66] mt-2 hover:text-[var(--color-secondary)] transition">
                             Product Name
                         </h3>
 
