@@ -89,13 +89,13 @@ h2 {
   box-shadow: var(--shadow);
 }
 
-#main-header.scrolled .nav-link {
+/* #main-header.scrolled .nav-link {
   color: var(--color-primary) !important;
-}
+} */
 
 /* ---------- Desktop nav links ---------- */
 .nav-link {
-  color: #fff;
+  /* color: #fff; */
   font-weight: 500;
   font-size: 15px;
   padding: 6px 2px;
@@ -130,7 +130,8 @@ h2 {
   left: 0;
   background: #fff;
   min-width: 200px;
-  border-radius: var(--radius-card);
+  /* border-radius: var(--radius-card); */
+  border-bottom: 3px solid var(--color-secondary);
   box-shadow: var(--shadow);
   z-index: 200;
   overflow: hidden;
@@ -143,7 +144,7 @@ h2 {
 .dropdown-panel a {
   display: block;
   padding: 10px 18px;
-  color: var(--color-primary);
+  /* color: var( --color-light-bg); */
   font-size: 14px;
   transition: var(--transition);
 }
