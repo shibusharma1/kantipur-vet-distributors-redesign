@@ -13,6 +13,24 @@
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #222222;
+}
+
+h2 {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  line-height: 36px !important;
+}
+
 /* ---------- Preloader ---------- */
 #preloader {
   position: fixed;
@@ -327,17 +345,6 @@
 }
 
 /* ---------- About image & circle ---------- */
-.about-img {
-  width: 100%;
-  height: 380px;
-  object-fit: cover;
-  /* border-radius: var(--radius-card); */
-  border-bottom-left-radius: 132px;
-  border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
 .circle-section {
   position: absolute;
   bottom: -30px;
@@ -678,4 +685,11 @@ footer {
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* CSS for blog title */
+.blog-card-title {
+  font-size: 28px !important;
+  line-height: 1.3 !important;
+  font-weight: 700 !important;
 }

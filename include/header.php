@@ -37,7 +37,8 @@
 
         <!-- Desktop -->
         <div class="hidden lg:block">
-            <div class="max-w-screen-xl mx-auto px-6">
+            <!-- <div class="max-w-screen-xl mx-auto px-1"> -->
+            <div class="max-w-screen-xl mx-auto px-3 sm:px-4 lg:px-2">
                 <nav class="flex items-center py-4 gap-10">
                     <a href="index.php">
                         <img src="assets/img/kantipurvet-logo.png" alt="" width="120">
@@ -71,7 +72,8 @@
 
         <!-- Mobile -->
         <div class="lg:hidden bg-white shadow">
-            <div class="max-w-screen-xl mx-auto px-4">
+            <!-- <div class="max-w-screen-xl mx-auto px-4"> -->
+            <div class="max-w-screen-xl mx-auto px-3">
                 <nav class="flex items-center justify-between py-3">
                     <a href="index.php">
                         <img alt="" src="assets/img/kantipurvet-logo.png" width="120">
