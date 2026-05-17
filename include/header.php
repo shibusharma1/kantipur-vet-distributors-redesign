@@ -57,7 +57,7 @@
                             </div>
                         </li>
                         <li><a href="blog.php" class="nav-link">News / Blogs</a></li>
-                        <li><a href="career.php" class="nav-link">Career</a></li>
+                        <!-- <li><a href="career.php" class="nav-link">Career</a></li> -->
                         <li><a href="contact.php" class="nav-link">Contact</a></li>
                     </ul>
                     <div class="flex items-center gap-2 flex-shrink-0">
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <a href="blog.php" class="offcanvas-nav-link">News / Blogs</a>
-            <a href="career.php" class="offcanvas-nav-link">Career</a>
+            <!-- <a href="career.php" class="offcanvas-nav-link">Career</a> -->
             <a href="contact.php" class="offcanvas-nav-link">Contact</a>
         </nav>
         <div class="p-4 flex gap-2">

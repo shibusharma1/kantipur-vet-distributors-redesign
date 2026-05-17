@@ -25,11 +25,11 @@ include 'include/header.php';
 
 <!-- ========================= Introduction Section ========================= -->
 <section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="reveal max-w-7xl mx-auto px-4">
 
         <!-- Intro Card -->
-        <div class="bg-gray-100 rounded-2xl p-8 md:p-14 text-center shadow-sm">
-            <div class="flex flex-col items-center mb-6">
+        <div class="reveal bg-gray-100 rounded-2xl p-8 md:p-14 text-center shadow-sm">
+            <div class="reveal flex flex-col items-center mb-6">
                 <h3 class="text-[#d4a017] font-semibold text-lg border-b-2 border-[#d4a017] inline-block pb-1">
                     Founding Background
                 </h3>
@@ -50,7 +50,7 @@ include 'include/header.php';
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-16">
 
             <!-- Item -->
-            <div class="text-center md:text-left hidden md:block md:border-r-2 md:border-[#EFEEF5]">
+            <div class="reveal text-center md:text-left hidden md:block md:border-r-2 md:border-[#EFEEF5]">
                 <img src="assets/img/icon/service.png" class="w-[70px] h-[70px] mx-auto md:mx-0" alt="">
 
                 <h4 class="mt-5 text-xl font-bold text-[#0d3b66]">
@@ -63,7 +63,7 @@ include 'include/header.php';
             </div>
 
             <!-- Item -->
-            <div class="text-center md:text-left hidden md:block md:border-r-2 md:border-[#EFEEF5]">
+            <div class="reveal text-center md:text-left hidden md:block md:border-r-2 md:border-[#EFEEF5]">
                 <img src="assets/img/icon/customer.png" class="w-[70px] h-[70px] mx-auto md:mx-0" alt="">
 
                 <h4 class="mt-5 text-xl font-bold text-[#0d3b66]">
@@ -76,7 +76,7 @@ include 'include/header.php';
             </div>
 
             <!-- Item -->
-            <div class="text-center md:text-left hidden md:block md:border-r-2 md:border-[#EFEEF5]">
+            <div class="reveal text-center md:text-left hidden md:block md:border-r-2 md:border-[#EFEEF5]">
                 <img src="assets/img/icon/team.png" class="w-[70px] h-[70px] mx-auto md:mx-0" alt="">
 
                 <h4 class="mt-5 text-xl font-bold text-[#0d3b66]">
@@ -89,7 +89,7 @@ include 'include/header.php';
             </div>
 
             <!-- Item -->
-            <div class="text-center md:text-left">
+            <div class="reveal text-center md:text-left">
                 <img src="assets/img/icon/networking.png" class="w-[70px] h-[70px] mx-auto md:mx-0" alt="">
 
                 <h4 class="mt-5 text-xl font-bold text-[#0d3b66]">
@@ -110,10 +110,10 @@ include 'include/header.php';
     <div class="max-w-7xl mx-auto px-4 space-y-16">
 
         <!-- Row 1 -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        <div class="reveal grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
             <!-- Text Box -->
-            <div class="order-2 lg:order-1 bg-gray-100 rounded-2xl p-8 flex flex-col justify-center max-h-[380px]">
+            <div class="reveal order-2 lg:order-1 bg-gray-100 rounded-2xl p-8 flex flex-col justify-center max-h-[380px]">
                 <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
                     Future-Forward Vision
                 </h4>
@@ -135,28 +135,28 @@ include 'include/header.php';
             </div>
 
             <!-- Image Box -->
-            <div class="order-1 lg:order-2 overflow-hidden rounded-2xl group max-h-[380px]">
+            <div class="reveal order-1 lg:order-2 overflow-hidden rounded-2xl group max-h-[380px]">
                 <img
                     src="assets/img/commit.jpg"
                     alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    class="w-full h-full object-cover transition duration-700 reveal group-hover:scale-110">
             </div>
 
         </div>
 
         <!-- Row 2 -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        <div class="reveal grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
             <!-- Image -->
-            <div class="overflow-hidden rounded-2xl group max-h-[380px]">
+            <div class="overflow-hidden rounded-2xl reveal group max-h-[380px]">
                 <img
                     src="assets/img/blog2.webp"
                     alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    class="w-full h-full object-cover transition duration-700 reveal group-hover:scale-110">
             </div>
 
             <!-- Content -->
-            <div class="bg-gray-100 rounded-2xl p-8 min-h-[380px] flex flex-col justify-center">
+            <div class="bg-gray-100 rounded-2xl p-8 min-h-[380px] flex flex-col reveal justify-center">
                 <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
                     What Do We Do?
                 </h4>
@@ -180,10 +180,10 @@ include 'include/header.php';
         </div>
 
         <!-- Row 3 -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 reveal items-stretch">
 
             <!-- Content -->
-            <div class="order-2 lg:order-1 bg-gray-100 rounded-2xl p-8 max-h-[350px] flex flex-col justify-center">
+            <div class="reveal order-2 lg:order-1 bg-gray-100 rounded-2xl p-8 max-h-[350px] flex flex-col justify-center">
                 <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
                     Our Product Portfolio
                 </h4>
@@ -205,7 +205,7 @@ include 'include/header.php';
             </div>
 
             <!-- Image -->
-            <div class="order-1 lg:order-2 overflow-hidden rounded-2xl group max-h-[380px]">
+            <div class="order-1 lg:order-2 overflow-hidden rounded-2xl reveal group max-h-[380px]">
                 <img
                     src="assets/img/blog1.png"
                     alt=""
@@ -217,7 +217,7 @@ include 'include/header.php';
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
             <!-- Image -->
-            <div class="overflow-hidden rounded-2xl group min-h-[380px]">
+            <div class="overflow-hidden rounded-2xl reveal group min-h-[380px]">
                 <img
                     src="assets/img/vision.jpg"
                     alt=""
@@ -225,7 +225,7 @@ include 'include/header.php';
             </div>
 
             <!-- Content -->
-            <div class="bg-gray-100 rounded-2xl p-8 min-h-[380px] flex flex-col justify-center">
+            <div class="bg-gray-100 rounded-2xl p-8 min-h-[380px] reveal flex flex-col justify-center">
                 <h4 class="text-2xl font-bold text-[#0d3b66] mb-4">
                     Commitment
                 </h4>

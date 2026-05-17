@@ -28,7 +28,7 @@ include 'include/header.php';
     <div class="max-w-7xl mx-auto px-4">
 
         <!-- About Content -->
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start mb-8">
 
             <!-- Left Image -->
             <div class="hidden lg:block h-full">
