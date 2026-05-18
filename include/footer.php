@@ -1,87 +1,414 @@
-<!-- ===================== FOOTER ===================== -->
-<footer>
-    <div class="vision-section py-12">
-        <div class="max-w-screen-xl mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-                <div class="reveal">
-                    <a href="index.php">
-                        <img alt="" loading="eager" src="assets/img/kantipurvet-logo.png" width="120" class="bg-white p-2 mb-4 block">
-                    </a>
-                    <p class="text-white/100 text-sm leading-relaxed">KPL is highly dedicated to research, production and planned marketing of veterinary allopathic medicines, animal nutrition, animal feed additives.</p>
-                </div>
-                <div class="reveal">
-                    <h3 class="text-white/100 font-bold mb-3 text-sm uppercase tracking-wider">IMPORTANT LINKS</h3>
-                    <ul class="footer-ul">
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="mission.php">Mission</a></li>
-                        <li><a href="blog.php">News / Blogs</a></li>
-                        <li><a href="career.php">Career</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="reveal">
-                    <h3 class="text-white font-bold mb-3 text-sm uppercase tracking-wider">OUR PRODUCTS</h3>
-                    <ul class="footer-ul">
-                        <li><a href="product-list.php">Feed Supplement</a></li>
-                        <li><a href="product-list.php">Allopathic</a></li>
-                        <li><a href="product-list.php">Marketing Division</a></li>
-                    </ul>
-                </div>
-                <div class="reveal">
-                    <h3 class="text-white font-bold mb-3 text-sm uppercase tracking-wider">CONTACT US</h3>
-                    <ul class="footer-ul space-y-2">
-                        <li class="flex gap-2 items-start text-white/100 text-sm"><i class="fa-solid fa-location-dot mt-1 flex-shrink-0 text-white"></i><span>KVD Complex 6th Floor, Balkumari, Lalitpur, Nepal, PIN 44700</span></li>
-                        <li class="flex gap-2 items-start text-white/100 text-sm"><i class="fa-solid fa-location-dot mt-1 flex-shrink-0 text-white"></i><span>Panchkhal - 06, Hokshe, Kavre</span></li>
-                        <li class="flex gap-2 items-start text-white/100 text-sm"><i class="fa-solid fa-phone mt-1 flex-shrink-0 text-white"></i><span>98787875845715, 985681464</span></li>
-                        <li class="flex gap-2 items-start text-white/100 text-sm"><i class="fa-solid fa-envelope mt-1 flex-shrink-0 text-white"></i><span>info@kantipurpharma.com</span></li>
-                    </ul>
-                </div>
-            </div>
+<!-- ========================= FOOTER ========================= -->
+<footer class="relative overflow-hidden">
+
+    <!-- Top Footer -->
+    <div class="relative py-20">
+
+        <!-- Background -->
+        <div class="absolute inset-0 bg-[#1E1B4B]"></div>
+
+        <div class="absolute inset-0 opacity-[0.04]">
+
+            <img
+                src="assets/img/kantipurvet-logo.png"
+                alt=""
+                class="w-full h-full object-contain">
+
         </div>
+
+        <!-- Content -->
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-14">
+
+                <!-- ========================= Company ========================= -->
+                <div class="reveal">
+
+                    <a
+                        href="index.php"
+                        class="inline-block">
+
+                        <img
+                            src="assets/img/kantipurvet-logo.png"
+                            alt="Logo"
+                            class="w-[130px] bg-white p-2 rounded-xl">
+
+                    </a>
+
+                    <p class="mt-6 text-white/75 leading-8 text-[15px]">
+
+                        KPL is highly dedicated to research, production and planned marketing of veterinary allopathic medicines, animal nutrition, animal feed additives and healthcare solutions across Nepal.
+
+                    </p>
+
+                    <!-- Social -->
+                    <div class="flex items-center gap-3 mt-8">
+
+                        <a
+                            href="#"
+                            class="icon-btn bg-facebook">
+
+                            <i class="fab fa-facebook-f"></i>
+
+                        </a>
+
+                        <a
+                            href="#"
+                            class="icon-btn bg-instagram">
+
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+
+                        <a
+                            href="#"
+                            class="icon-btn bg-twitter">
+
+                            <i class="fab fa-x-twitter"></i>
+
+                        </a>
+
+                        <a
+                            href="#"
+                            class="icon-btn bg-youtube">
+
+                            <i class="fab fa-youtube"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- ========================= Quick Links ========================= -->
+                <div class="reveal">
+
+                    <h3 class="text-white text-xl font-semibold mb-8">
+
+                        Quick Links
+
+                    </h3>
+
+                    <ul class="space-y-5">
+
+                        <li>
+                            <a
+                                href="about.php"
+                                class="footer-link">
+
+                                About Us
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="mission.php"
+                                class="footer-link">
+
+                                Mission & Vision
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="blog.php"
+                                class="footer-link">
+
+                                News & Blogs
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="contact.php"
+                                class="footer-link">
+
+                                Contact Us
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- ========================= Products ========================= -->
+                <div class="reveal">
+
+                    <h3 class="text-white text-xl font-semibold mb-8">
+
+                        Our Products
+
+                    </h3>
+
+                    <ul class="space-y-5">
+
+                        <li>
+                            <a
+                                href="product-list.php"
+                                class="footer-link">
+
+                                Feed Supplement
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="product-list.php"
+                                class="footer-link">
+
+                                Allopathic
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="product-list.php"
+                                class="footer-link">
+
+                                Marketing Division
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- ========================= Contact ========================= -->
+                <div class="reveal">
+
+                    <h3 class="text-white text-xl font-semibold mb-8">
+
+                        Contact Info
+
+                    </h3>
+
+                    <div class="space-y-6">
+
+                        <!-- Office -->
+                        <div class="flex gap-4">
+
+                            <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
+
+                                <i class="fa-solid fa-location-dot"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h5 class="text-white font-medium mb-2">
+
+                                    Corporate Office
+
+                                </h5>
+
+                                <p class="text-white/70 text-sm leading-7">
+
+                                    KVD Complex 6th Floor,
+                                    Balkumari, Lalitpur, Nepal
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Factory -->
+                        <div class="flex gap-4">
+
+                            <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
+
+                                <i class="fa-solid fa-industry"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h5 class="text-white font-medium mb-2">
+
+                                    Factory
+
+                                </h5>
+
+                                <p class="text-white/70 text-sm leading-7">
+
+                                    Panchkhal - 06,
+                                    Hokshe, Kavre
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="flex gap-4">
+
+                            <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
+
+                                <i class="fa-solid fa-phone"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h5 class="text-white font-medium mb-2">
+
+                                    Phone Number
+
+                                </h5>
+
+                                <p class="text-white/70 text-sm">
+
+                                    +977-01-5186604
+
+                                </p>
+
+                                <p class="text-white/70 text-sm">
+
+                                    +977-01-5186602
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Email -->
+                        <div class="flex gap-4">
+
+                            <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
+
+                                <i class="fa-solid fa-envelope"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h5 class="text-white font-medium mb-2">
+
+                                    Email Address
+
+                                </h5>
+
+                                <p class="text-white/70 text-sm break-all">
+
+                                    info@kantipurpharma.com
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="bg-[#2A2929] py-4">
-        <div class="max-w-screen-xl mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-                <div class="flex gap-4 items-center">
-                    <a href="#" class="text-white/100 hover:text-white text-sm">Terms and Condition</a>
-                    <a href="#" class="text-white/100 hover:text-white text-sm">Privacy</a>
+    <!-- ========================= Bottom Footer ========================= -->
+    <div class="border-t border-white/10 bg-[#18153F]">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-4">
+
+                <!-- Left -->
+                <div class="flex items-center gap-6 text-center lg:text-left">
+
+                    <a
+                        href="terms-and-conditions.php"
+                        class="text-white/60 text-sm hover:text-white transition duration-300">
+
+                        Terms & Conditions
+
+                    </a>
+
+                    <a
+                        href="privacy-policy.php"
+                        class="text-white/60 text-sm hover:text-white transition duration-300">
+
+                        Privacy Policy
+
+                    </a>
+
                 </div>
+
+                <!-- Center -->
                 <div class="text-center">
-                    <p class="m-0 text-white/100 text-sm">Copyright © 2024, Kantipur Lab.</p>
-                    <p class="m-0 text-white/100 text-sm">Design &amp; Developed <span class="text-[#1e87f0] cursor-pointer font-semibold hover:text-[#3A3984]">By Cyberlink Pvt. Ltd.</span></p>
+
+                    <p class="text-white/70 text-sm">
+
+                        Copyright © 2024 Kantipur Pharmaceuticals Lab Limited.
+
+                    </p>
+
                 </div>
-                <div class="flex justify-end gap-2">
-                    <a href="" class="icon-btn bg-[#3A3984]"><i class="fab fa-facebook-f"></i></a>
-                    <a href="" class="icon-btn bg-[#3A3984]"><i class="fab fa-instagram"></i></a>
-                    <a href="" class="icon-btn bg-[#3A3984]"><i class="fab fa-x-twitter"></i></a>
-                    <a href="" class="icon-btn bg-[#3A3984]"><i class="fab fa-youtube"></i></a>
+
+                <!-- Right -->
+                <div>
+
+                    <p class="text-white/60 text-sm text-center lg:text-right">
+
+                        Design & Developed By
+
+                        <span class="text-secondary font-medium">
+
+                            Cyberlink Pvt. Ltd.
+
+                        </span>
+
+                    </p>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </footer>
 
-<!-- Back to Top Button -->
-<button id="backToTop"
+<!-- ========================= BACK TO TOP ========================= -->
+<button
+    id="backToTop"
     class="fixed bottom-6 right-6 z-50 hidden items-center justify-center
-           w-12 h-12 rounded-full bg-green-600 text-white shadow-lg
-           hover:bg-green-700 hover:shadow-xl
-           transition-all duration-300 ease-in-out
-           focus:outline-none focus:ring-4 focus:ring-green-300">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none"
-        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round"
-            d="M5 15l7-7 7 7" />
-    </svg>
+           w-12 h-12 rounded-full bg-secondary text-white shadow-xl
+           hover:-translate-y-1 hover:shadow-2xl
+           transition-all duration-300">
+
+    <i class="fa-solid fa-arrow-up text-sm"></i>
+
 </button>
 
+<!-- ========================= SCRIPTS ========================= -->
 
-<script src="../kantipur-vet-distributors-design-php/assets/js/preloader.js"></script>
-<script src="../kantipur-vet-distributors-design-php/assets/js/backtotop.js"></script>
-<script src="../kantipur-vet-distributors-design-php/assets/js/stickynavbar.js"></script>
-<script src="../kantipur-vet-distributors-design-php/assets/js/offcanvas-slider.js"></script>
-<script src="../kantipur-vet-distributors-design-php/assets/js/scroll-animation.js"></script>
+<!-- Preloader -->
+<script src="assets/js/preloader.js"></script>
+
+<!-- Sticky Navbar -->
+<script src="assets/js/stickynavbar.js"></script>
+
+<!-- Offcanvas -->
+<script src="assets/js/offcanvas-slider.js"></script>
+
+<!-- Back To Top -->
+<script src="assets/js/backtotop.js"></script>
+
+<!-- Scroll Animation -->
+<script src="assets/js/scroll-animation.js"></script>
 
 </body>
 

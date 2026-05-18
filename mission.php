@@ -1,191 +1,407 @@
 <?php
 include 'include/header.php';
 ?>
-<!-- ========================= Banner Section ========================= -->
+
+<!-- ========================= PAGE BANNER ========================= -->
 <section class="relative h-[420px] overflow-hidden">
+
+    <!-- Background -->
     <img
         src="assets/img/commit.jpg"
         alt="Mission Banner"
         class="w-full h-full object-cover">
 
-    <div class="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
-        <h3 class="text-white text-sm md:text-base font-medium tracking-wide">
-            <a href="index.php" class="hover:text-yellow-400 transition">
-                HOME
-            </a>
-            /
-            MISSION
-        </h3>
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/55"></div>
 
-        <h1 class="text-white text-4xl md:text-6xl font-bold mt-3">
-            Mission and vision
+    <!-- Bottom Gradient -->
+    <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/40 to-transparent"></div>
+
+    <!-- Content -->
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+
+        <p class="text-white/80 uppercase tracking-[0.25em] text-sm reveal">
+
+            Home / Mission & Vision
+
+        </p>
+
+        <h1 class="mt-5 text-white text-4xl md:text-6xl font-bold reveal">
+
+            Mission & Vision
+
         </h1>
+
     </div>
+
 </section>
 
-<!-- ========================= About Section ========================= -->
-<section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4">
+<!-- ========================= INTRO SECTION ========================= -->
+<section class="py-20 md:py-24 bg-white overflow-hidden">
 
-        <!-- About Content -->
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start mb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            <!-- Left Image -->
-            <div class="hidden lg:block h-full">
-                <img
-                    src="assets/img/about.webp"
-                    alt="About"
-                    class="w-full h-full object-cover shadow-md
-                   rounded-tl-[15px]
-                   rounded-tr-[15px]
-                   rounded-br-[15px]
-                   rounded-bl-[132px]">
-            </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-            <!-- Right Content -->
-            <div class="lg:col-span-3">
-                <h3 class="text-[#d4a017] font-semibold text-lg border-b-2 border-[#d4a017] inline-block pb-1">
-                    About us
-                </h3>
+            <!-- Content -->
+            <div>
 
-                <h2 class="text-3xl md:text-5xl font-bold text-[#0d3b66] mt- mb-4">
-                    About Kantipur Pharmaceuticals Lab Limited.
+                <p class="section-tag reveal">
+
+                    Our Commitment
+
+                </p>
+
+                <h2 class="mt-5 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+
+                    Dedicated To Better Veterinary Healthcare Solutions.
+
                 </h2>
 
-                <div class="bg-gray-100 rounded-2xl p-8 shadow-sm">
-                    <p class="leading-8">
-                        Kantipur Pharmaceuticals Lab Limited (KPL) is a Nepal based company established in 2073 B.S. It is a leading animal healthcare company creating a healthier world for animals. Our veterinary solutions are "Gold Standard" & "Need Based Innovations". We Offer Comprehensive, Innovative, High Quality and Safe Feed Supplements, Feed Nutrition Premixes, advanced and fine-tuned Phytochemical Products along with Allopathic Medicines for Dairy Cattle, Equines, Poultry, Swine & Pets for Enhanced Productivity and Better Healthcare.
-                        <br>
-                        KPL continuously strives to attract highly efficient and experienced staff in the veterinary medicines and pharmaceutical industries to ensure the quality of our products. With a strong and professional Technical and Marketing teams and an efficient distribution network, KPL ensures Safety, Efficacy and Quality with prompt delivery of its products across Nepal through specialty distributors and authorized local dealers.
-                        KPL is aiming to be certified for ISO-9001 QMS, ISO-14001 EMS and FAMI-QS certification for Feed Division and WHO-GMP for its Allopathic Division in near future.
-                    </p>
+                <p class="mt-8 text-gray-600 leading-8 reveal">
+
+                    Kantipur Pharmaceuticals Lab Limited is committed to supporting Nepal’s animal healthcare sector through innovative veterinary medicines, feed supplements and high-quality nutritional products.
+
+                </p>
+
+                <p class="mt-5 text-gray-600 leading-8 reveal">
+
+                    Our mission and vision reflect our dedication to animal welfare, livestock productivity and trusted healthcare innovation across the country.
+
+                </p>
+
+                <!-- Features -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10">
+
+                    <!-- Card -->
+                    <div class="modern-card p-6 reveal">
+
+                        <div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center">
+
+                            <i class="fa-solid fa-heart-pulse text-primary text-2xl"></i>
+
+                        </div>
+
+                        <h4 class="mt-5 text-xl font-semibold text-primary">
+
+                            Animal Welfare
+
+                        </h4>
+
+                        <p class="mt-3 text-sm leading-7 text-gray-500">
+
+                            Safer and healthier solutions for animals and livestock industries.
+
+                        </p>
+
+                    </div>
+
+                    <!-- Card -->
+                    <div class="modern-card p-6 reveal">
+
+                        <div class="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center">
+
+                            <i class="fa-solid fa-award text-secondary text-2xl"></i>
+
+                        </div>
+
+                        <h4 class="mt-5 text-xl font-semibold text-primary">
+
+                            Trusted Standards
+
+                        </h4>
+
+                        <p class="mt-3 text-sm leading-7 text-gray-500">
+
+                            Consistent quality and innovation in veterinary healthcare products.
+
+                        </p>
+
+                    </div>
+
                 </div>
+
+            </div>
+
+            <!-- Image -->
+            <div class="relative reveal">
+
+                <div class="overflow-hidden rounded-[32px] shadow-2xl">
+
+                    <img
+                        src="assets/img/about.webp"
+                        alt="Mission"
+                        class="w-full h-[620px] object-cover hover:scale-105 transition duration-700">
+
+                </div>
+
+                <!-- Floating Card -->
+                <div class="absolute -bottom-10 -left-5 bg-white rounded-3xl shadow-2xl px-8 py-6 border border-gray-100 hidden md:block">
+
+                    <h4 class="text-4xl font-bold text-secondary">
+
+                        ISO
+
+                    </h4>
+
+                    <p class="mt-1 text-gray-500 text-sm">
+
+                        Quality Focused Standards
+
+                    </p>
+
+                </div>
+
             </div>
 
         </div>
 
-        <!-- ========================= Mission Vision Grid ========================= -->
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-15">
+    </div>
+
+</section>
+
+<!-- ========================= MISSION VISION GOALS ========================= -->
+<section class="py-20 md:py-24 bg-[#F7F8FA] overflow-hidden">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Heading -->
+        <div class="max-w-3xl mx-auto text-center mb-16">
+
+            <p class="section-tag justify-center reveal">
+
+                Core Values
+
+            </p>
+
+            <h2 class="mt-5 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+
+                Mission, Vision & Goals
+
+            </h2>
+
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
             <!-- Mission -->
-            <div>
-                <div class="border-2 border-gray-200 rounded-2xl h-[320px] p-8 flex items-center justify-center relative">
-                    <div class="text-center">
+            <div class="modern-card p-10 text-center relative overflow-hidden reveal">
 
-                        <img
-                            src="assets/img/icon/mission.png"
-                            class="w-[60px] h-[60px] mx-auto"
-                            alt="">
+                <!-- Icon -->
+                <div class="w-24 h-24 rounded-[28px] bg-primary/10 flex items-center justify-center mx-auto">
 
-                        <h3 class="text-[#0d3b66] font-bold text-2xl mt-5">
-                            OUR MISSION
-                        </h3>
+                    <img
+                        src="assets/img/icon/mission.png"
+                        alt=""
+                        class="w-12 h-12">
 
-                        <p class="text-gray-600 mt-4 leading-7">
-                            Our mission is to support the growth and development of the animal and poultry industries in Nepal, aiming to be a reliable and trusted partner for our customers and animal healthcare providers.
-                        </p>
-                    </div>
                 </div>
 
-                <!-- Circle -->
-                <div class="flex justify-center -mt-8 relative z-10">
-                    <div class="w-[90px] h-[90px] rounded-full bg-[#0d3b66] flex items-center justify-center shadow-lg">
-                        <img
-                            src="assets/img/icon/cow.png"
-                            class="w-[50px] h-[50px]"
-                            alt="">
-                    </div>
-                </div>
-            </div>
+                <h3 class="mt-8 text-3xl font-bold text-primary">
 
-            <!-- Center Image -->
-            <div class="overflow-hidden rounded-2xl group h-[320px] z-5">
-                <img
-                    src="assets/img/commit/img1.jpg"
-                    alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
-            </div>
+                    Our Mission
 
-            <!-- Goals -->
-            <div>
-                <div class="border-2 border-gray-200 rounded-2xl h-[320px] p-8 flex items-center justify-center relative">
-                    <div class="text-center">
+                </h3>
 
-                        <img
-                            src="assets/img/icon/goal.png"
-                            class="w-[60px] h-[60px] mx-auto"
-                            alt="">
+                <p class="mt-6 text-gray-600 leading-8">
 
-                        <h3 class="text-[#0d3b66] font-bold text-2xl mt-5">
-                            OUR GOALS
-                        </h3>
+                    To support the growth and development of Nepal’s animal and poultry industries by delivering trusted veterinary healthcare products and innovative nutritional solutions.
 
-                        <p class="text-gray-600 mt-4 leading-7">
-                            Our goal is to become the leading veterinary industry in Nepal in the field of Animal Feed Supplements and Quality Medicines and to expand our distribution network globally.
-                        </p>
-                    </div>
-                </div>
+                </p>
 
-                <!-- Circle -->
-                <div class="flex justify-center -mt-6 relative z-10">
-                    <div class="w-[90px] h-[90px] rounded-full bg-[#0d3b66] flex items-center justify-center shadow-lg">
-                        <img
-                            src="assets/img/icon/buffalo.png"
-                            class="w-[50px] h-[50px]"
-                            alt="">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bottom Image -->
-            <div class="overflow-hidden rounded-2xl group h-[320px] mt-[-4rem]">
-                <img
-                    src="assets/img/commit/img3.jpg"
-                    alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
             </div>
 
             <!-- Vision -->
-            <div>
-                <div class="flex justify-center mt-[-7.5rem]">
-                    <div class="w-[90px] h-[90px] rounded-full bg-yellow-500 flex items-center justify-center shadow-lg z-10">
-                        <img
-                            src="assets/img/icon/pig.png"
-                            class="w-[50px] h-[50px]"
-                            alt="">
-                    </div>
+            <div class="modern-card p-10 text-center relative overflow-hidden reveal">
+
+                <!-- Icon -->
+                <div class="w-24 h-24 rounded-[28px] bg-secondary/10 flex items-center justify-center mx-auto">
+
+                    <img
+                        src="assets/img/icon/vision.png"
+                        alt=""
+                        class="w-12 h-12">
+
                 </div>
 
-                <div class="border-2 border-gray-200 rounded-2xl h-[350px] p-8 flex items-center justify-center mt-[-2rem]">
-                    <div class="text-center">
+                <h3 class="mt-8 text-3xl font-bold text-primary">
 
-                        <img
-                            src="assets/img/icon/vision.png"
-                            class="w-[60px] h-[60px] mx-auto"
-                            alt="">
+                    Our Vision
 
-                        <h3 class="text-[#0d3b66] font-bold text-2xl mt-5">
-                            OUR VISION
-                        </h3>
+                </h3>
 
-                        <p class="text-gray-600 mt-4 leading-7">
-                            We aspire to be acknowledged as an industry leader, both nationally and internationally, contributing to the advancement of the animal and poultry sectors in Nepal.
-                        </p>
-                    </div>
-                </div>
+                <p class="mt-6 text-gray-600 leading-8">
+
+                    To become a nationally and internationally recognized veterinary pharmaceutical company trusted for innovation, safety and healthcare excellence.
+
+                </p>
+
             </div>
 
-            <!-- Last Image -->
-            <div class="overflow-hidden rounded-2xl group h-[320px] mt-[-4rem]">
-                <img
-                    src="assets/img/commit/img4.jpg"
-                    alt=""
-                    class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+            <!-- Goals -->
+            <div class="modern-card p-10 text-center relative overflow-hidden reveal">
+
+                <!-- Icon -->
+                <div class="w-24 h-24 rounded-[28px] bg-primary/10 flex items-center justify-center mx-auto">
+
+                    <img
+                        src="assets/img/icon/goal.png"
+                        alt=""
+                        class="w-12 h-12">
+
+                </div>
+
+                <h3 class="mt-8 text-3xl font-bold text-primary">
+
+                    Our Goals
+
+                </h3>
+
+                <p class="mt-6 text-gray-600 leading-8">
+
+                    To strengthen distribution networks, enhance product innovation and continuously improve veterinary healthcare services throughout Nepal.
+
+                </p>
+
             </div>
 
         </div>
 
     </div>
+
+</section>
+
+<!-- ========================= IMAGE SHOWCASE ========================= -->
+<section class="py-20 md:py-24 bg-white overflow-hidden">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+
+            <!-- Image -->
+            <div class="overflow-hidden rounded-[28px] reveal group">
+
+                <img
+                    src="assets/img/commit/img1.jpg"
+                    alt=""
+                    class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-700">
+
+            </div>
+
+            <!-- Image -->
+            <div class="overflow-hidden rounded-[28px] reveal group md:mt-12">
+
+                <img
+                    src="assets/img/commit/img3.jpg"
+                    alt=""
+                    class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-700">
+
+            </div>
+
+            <!-- Image -->
+            <div class="overflow-hidden rounded-[28px] reveal group">
+
+                <img
+                    src="assets/img/commit/img4.jpg"
+                    alt=""
+                    class="w-full h-[420px] object-cover group-hover:scale-105 transition duration-700">
+
+            </div>
+
+            <!-- Content Card -->
+            <div class="modern-card p-10 flex flex-col justify-center reveal">
+
+                <div class="w-20 h-20 rounded-3xl bg-secondary/10 flex items-center justify-center">
+
+                    <i class="fa-solid fa-seedling text-secondary text-3xl"></i>
+
+                </div>
+
+                <h3 class="mt-8 text-3xl font-bold text-primary leading-tight">
+
+                    Sustainable Growth Through Veterinary Innovation.
+
+                </h3>
+
+                <p class="mt-6 text-gray-600 leading-8">
+
+                    KPL continuously works towards advanced animal healthcare technologies and sustainable veterinary product development for better productivity and healthier livestock.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= CTA SECTION ========================= -->
+<section class="relative py-20 md:py-24 overflow-hidden">
+
+    <!-- Background -->
+    <div class="absolute inset-0">
+
+        <img
+            src="assets/img/vision.jpg"
+            alt=""
+            class="w-full h-full object-cover">
+
+    </div>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-primary/90"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        <p class="section-tag text-white justify-center reveal">
+
+            Join With Us
+
+        </p>
+
+        <h2 class="mt-5 text-3xl md:text-5xl font-bold leading-tight text-white reveal">
+
+            Together We Can Build Healthier Animal Communities.
+
+        </h2>
+
+        <p class="mt-7 text-white/75 leading-8 max-w-3xl mx-auto reveal">
+
+            We remain committed to quality veterinary healthcare, trusted partnerships and sustainable livestock development across Nepal.
+
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex flex-wrap justify-center gap-4 mt-10 reveal">
+
+            <a
+                href="contact.php"
+                class="white-btn">
+
+                Contact Us
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+            <a
+                href="product-list.php"
+                class="primary-btn bg-secondary hover:bg-white hover:text-primary">
+
+                Explore Products
+
+                <i class="fa-solid fa-box-open"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
 </section>
 
 <?php

@@ -1,9 +1,12 @@
-// Scroll reveal
+// ========================= SCROLL REVEAL =========================
 const io = new IntersectionObserver(
   (entries) => {
     entries.forEach((e, i) => {
       if (e.isIntersecting) {
-        setTimeout(() => e.target.classList.add("visible"), i * 60);
+        setTimeout(() => {
+          e.target.classList.add("visible");
+        }, i * 60);
+
         io.unobserve(e.target);
       }
     });
@@ -12,4 +15,7 @@ const io = new IntersectionObserver(
     threshold: 0.08,
   },
 );
-document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+document.querySelectorAll(".reveal").forEach((el) => {
+  io.observe(el);
+});

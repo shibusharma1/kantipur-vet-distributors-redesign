@@ -1,8 +1,7 @@
 window.addEventListener("load", () => {
-  setTimeout(() => {
-    const p = document.getElementById("preloader");
-    p.classList.add("hide");
+  const preloader = document.getElementById("preloader");
 
-    setTimeout(() => p.remove(), 500);
-  }, 800);
+  setTimeout(() => {
+    preloader.classList.add("hide");
+  }, 300);
 });

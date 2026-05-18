@@ -1,288 +1,539 @@
 <?php
 include 'include/header.php';
 ?>
-<!-- ========================= Banner Section ========================= -->
+
+<!-- ========================= PAGE BANNER ========================= -->
 <section class="relative h-[420px] overflow-hidden">
+
+    <!-- Background -->
     <img
         src="assets/img/vision.jpg"
         alt="Career Banner"
         class="w-full h-full object-cover">
 
-    <div class="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
-        <h3 class="text-white text-sm md:text-base font-medium tracking-wide">
-            <a href="index.php" class="hover:text-yellow-400 transition">
-                HOME
-            </a>
-            /
-            CAREER
-        </h3>
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/55"></div>
 
-        <h1 class="text-white text-4xl md:text-6xl font-bold mt-3">
-            Career
+    <!-- Bottom Gradient -->
+    <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/40 to-transparent"></div>
+
+    <!-- Content -->
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+
+        <p class="text-white/80 uppercase tracking-[0.25em] text-sm reveal">
+
+            Home / Career
+
+        </p>
+
+        <h1 class="mt-5 text-white text-4xl md:text-6xl font-bold reveal">
+
+            Career Opportunities
+
         </h1>
-    </div>
-</section>
-
-<!-- ========================= Career Table Section ========================= -->
-<section class="py-20 bg-white">
-
-    <div class="max-w-7xl mx-auto px-4">
-
-        <!-- Table Wrapper -->
-        <div class="overflow-x-auto rounded-2xl shadow-lg border border-gray-200">
-
-            <table class="w-full min-w-[900px]">
-
-                <!-- Table Head -->
-                <thead class="bg-[#0d3b66] text-white">
-
-                    <tr>
-
-                        <th class="px-6 py-5 text-left text-lg font-semibold">
-                            Job Title
-                        </th>
-
-                        <th class="px-6 py-5 text-left text-lg font-semibold">
-                            Description
-                        </th>
-
-                        <th class="px-6 py-5 text-left text-lg font-semibold">
-                            Type
-                        </th>
-
-                        <th class="px-6 py-5 text-left text-lg font-semibold">
-                            Apply Now
-                        </th>
-
-                    </tr>
-
-                </thead>
-
-                <!-- Table Body -->
-                <tbody class="bg-white divide-y divide-gray-200">
-
-                    <!-- Row -->
-                    <tr class="hover:bg-gray-50 transition">
-
-                        <td class="px-6 py-6 font-bold text-[#0d3b66]">
-                            Geologist
-                        </td>
-
-                        <td class="px-6 py-6 text-gray-600 leading-7">
-                            Are you detail-oriented and experienced in your field? We’re seeking skilled and energetic professionals to join our team. If you meet the requirements, apply now for exciting career opportunities in the following positions!
-                        </td>
-
-                        <td class="px-6 py-6 font-semibold text-gray-700 uppercase">
-                            Full Time
-                        </td>
-
-                        <td class="px-6 py-6">
-                            <button
-                                onclick="openModal()"
-                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-[var(--color-secondary)] font-semibold transition">
-                                Apply Now
-                                <i class="fa-solid fa-angle-right"></i>
-                            </button>
-                        </td>
-
-                    </tr>
-
-                    <!-- Row -->
-                    <tr class="hover:bg-gray-50 transition">
-
-                        <td class="px-6 py-6 font-bold text-[#0d3b66]">
-                            Geologist
-                        </td>
-
-                        <td class="px-6 py-6 text-gray-600 leading-7">
-                            Are you detail-oriented and experienced in your field? We’re seeking skilled and energetic professionals to join our team. If you meet the requirements, apply now for exciting career opportunities in the following positions!
-                        </td>
-
-                        <td class="px-6 py-6 font-semibold text-gray-700 uppercase">
-                            Full Time
-                        </td>
-
-                        <td class="px-6 py-6">
-                            <button
-                                onclick="openModal()"
-                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-[var(--color-secondary)] font-semibold transition">
-                                Apply Now
-                                <i class="fa-solid fa-angle-right"></i>
-                            </button>
-                        </td>
-
-                    </tr>
-
-                    <!-- Row -->
-                    <tr class="hover:bg-gray-50 transition">
-
-                        <td class="px-6 py-6 font-bold text-[#0d3b66]">
-                            Geologist
-                        </td>
-
-                        <td class="px-6 py-6 text-gray-600 leading-7">
-                            Are you detail-oriented and experienced in your field? We’re seeking skilled and energetic professionals to join our team. If you meet the requirements, apply now for exciting career opportunities in the following positions!
-                        </td>
-
-                        <td class="px-6 py-6 font-semibold text-gray-700 uppercase">
-                            Full Time
-                        </td>
-
-                        <td class="px-6 py-6">
-                            <button
-                                onclick="openModal()"
-                                class="inline-flex items-center gap-2 text-[#0d3b66] hover:text-[var(--color-secondary)] font-semibold transition">
-                                Apply Now
-                                <i class="fa-solid fa-angle-right"></i>
-                            </button>
-                        </td>
-
-                    </tr>
-
-                </tbody>
-
-            </table>
-
-        </div>
 
     </div>
 
 </section>
 
-<!-- ========================= Career Modal ========================= -->
-<div
-    id="careerModal"
-    class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4">
+<!-- ========================= CAREER INTRO ========================= -->
+<section class="py-20 md:py-24 bg-white overflow-hidden">
 
-    <!-- Modal Box -->
-    <div class="bg-white rounded-2xl shadow-2xl w-full max-w-5xl max-h-[95vh] overflow-y-auto relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <!-- Close Button -->
-        <button
-            onclick="closeModal()"
-            class="absolute top-5 right-5 w-10 h-10 rounded-full bg-red-500 text-white hover:bg-red-600 transition">
-            <i class="fa-solid fa-xmark"></i>
-        </button>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-        <!-- Header -->
-        <div class="bg-[#0d3b66] px-8 py-6 rounded-t-2xl">
+            <!-- Left -->
+            <div>
 
-            <h3 class="text-3xl font-bold text-white">
-                KPL Hiring / Application Form
-            </h3>
+                <p class="section-tag reveal">
 
-        </div>
+                    Join Our Team
 
-        <!-- Content -->
-        <div class="p-8">
+                </p>
 
-            <p class="text-gray-600 leading-7">
-                We are Kantipur Pharmaceutical Lab Limited; a diverse academic background team united to care and cure animal’s health.
-            </p>
+                <h2 class="mt-5 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
 
-            <hr class="my-6">
+                    Build Your Career With KPL.
 
-            <p class="text-red-500 text-sm">
-                Fields marked with * are required.
-            </p>
+                </h2>
 
-            <!-- Form -->
-            <form class="mt-8">
+                <p class="mt-8 text-gray-600 leading-8 reveal">
 
-                <!-- Input Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    Kantipur Pharmaceuticals Lab Limited is always looking for passionate, skilled and motivated professionals who are committed to innovation, healthcare excellence and animal welfare.
 
-                    <!-- Full Name -->
-                    <div>
-                        <label class="block font-semibold text-gray-700 mb-2">
-                            Your Full Name *
-                        </label>
+                </p>
 
-                        <input
-                            type="text"
-                            class="w-full h-12 px-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0d3b66]">
+                <p class="mt-5 text-gray-600 leading-8 reveal">
+
+                    We believe in creating opportunities for professional growth, teamwork and long-term career development in Nepal’s veterinary healthcare industry.
+
+                </p>
+
+                <!-- Features -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10">
+
+                    <!-- Card -->
+                    <div class="modern-card p-6 reveal">
+
+                        <div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center">
+
+                            <i class="fa-solid fa-user-group text-primary text-2xl"></i>
+
+                        </div>
+
+                        <h4 class="mt-5 text-xl font-semibold text-primary">
+
+                            Team Environment
+
+                        </h4>
+
+                        <p class="mt-3 text-sm leading-7 text-gray-500">
+
+                            Work with experienced professionals in a collaborative environment.
+
+                        </p>
+
                     </div>
 
-                    <!-- Phone -->
-                    <div>
-                        <label class="block font-semibold text-gray-700 mb-2">
-                            Your Phone Number *
-                        </label>
+                    <!-- Card -->
+                    <div class="modern-card p-6 reveal">
 
-                        <input
-                            type="text"
-                            class="w-full h-12 px-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0d3b66]">
-                    </div>
+                        <div class="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center">
 
-                    <!-- Email -->
-                    <div>
-                        <label class="block font-semibold text-gray-700 mb-2">
-                            Your Email *
-                        </label>
+                            <i class="fa-solid fa-chart-line text-secondary text-2xl"></i>
 
-                        <input
-                            type="email"
-                            class="w-full h-12 px-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0d3b66]">
-                    </div>
+                        </div>
 
-                    <!-- Experience -->
-                    <div>
-                        <label class="block font-semibold text-gray-700 mb-2">
-                            Experience in Year *
-                        </label>
+                        <h4 class="mt-5 text-xl font-semibold text-primary">
 
-                        <input
-                            type="text"
-                            class="w-full h-12 px-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0d3b66]">
-                    </div>
+                            Career Growth
 
-                    <!-- Current CTC -->
-                    <div>
-                        <label class="block font-semibold text-gray-700 mb-2">
-                            Current CTC *
-                        </label>
+                        </h4>
 
-                        <input
-                            type="text"
-                            class="w-full h-12 px-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0d3b66]">
-                    </div>
+                        <p class="mt-3 text-sm leading-7 text-gray-500">
 
-                    <!-- Organization -->
-                    <div>
-                        <label class="block font-semibold text-gray-700 mb-2">
-                            Current Organization *
-                        </label>
+                            Explore professional growth opportunities and career development.
 
-                        <input
-                            type="text"
-                            class="w-full h-12 px-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0d3b66]">
+                        </p>
+
                     </div>
 
                 </div>
 
-                <!-- Uploads -->
-                <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 mt-10">
+            </div>
 
-                    <!-- Upload Buttons -->
-                    <div class="flex flex-wrap gap-4">
+            <!-- Right -->
+            <div class="relative reveal">
 
-                        <!-- CV Upload -->
-                        <label class="cursor-pointer inline-flex items-center gap-3 bg-[#0d3b66] hover:bg-[#08233d] text-white px-6 py-4 rounded-xl transition">
+                <div class="overflow-hidden rounded-[32px] shadow-2xl">
 
-                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <img
+                        src="assets/img/company.jpg"
+                        alt="Career"
+                        class="w-full h-[620px] object-cover hover:scale-105 transition duration-700">
 
-                            <span>Upload CV</span>
+                </div>
 
-                            <input type="file" class="hidden">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= CAREER TABLE ========================= -->
+<section class="pb-20 md:pb-24 bg-[#F7F8FA] overflow-hidden">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Heading -->
+        <div class="max-w-3xl mb-14">
+
+            <p class="section-tag reveal">
+
+                Open Positions
+
+            </p>
+
+            <h2 class="mt-5 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+
+                Current Job Openings
+
+            </h2>
+
+        </div>
+
+        <!-- Table Wrapper -->
+        <div class="overflow-x-auto reveal">
+
+            <div class="modern-card overflow-hidden min-w-[1000px]">
+
+                <table class="w-full">
+
+                    <!-- Head -->
+                    <thead class="bg-primary text-white">
+
+                        <tr>
+
+                            <th class="px-8 py-6 text-left text-lg font-semibold">
+                                Job Title
+                            </th>
+
+                            <th class="px-8 py-6 text-left text-lg font-semibold">
+                                Description
+                            </th>
+
+                            <th class="px-8 py-6 text-left text-lg font-semibold">
+                                Job Type
+                            </th>
+
+                            <th class="px-8 py-6 text-left text-lg font-semibold">
+                                Apply
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <!-- Body -->
+                    <tbody class="divide-y divide-gray-100 bg-white">
+
+                        <!-- Row -->
+                        <tr class="hover:bg-gray-50 transition duration-300">
+
+                            <td class="px-8 py-8">
+
+                                <h4 class="text-xl font-bold text-primary">
+
+                                    Veterinary Officer
+
+                                </h4>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <p class="text-gray-600 leading-8 min-w-[320px]">
+
+                                    We are looking for dedicated and experienced veterinary professionals to support our healthcare and product development operations.
+
+                                </p>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <span class="inline-flex items-center px-4 py-2 rounded-full bg-secondary/10 text-secondary font-semibold text-sm">
+
+                                    Full Time
+
+                                </span>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <button
+                                    onclick="openModal()"
+                                    class="inline-flex items-center gap-3 text-primary font-semibold hover:text-secondary transition duration-300">
+
+                                    Apply Now
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <!-- Row -->
+                        <tr class="hover:bg-gray-50 transition duration-300">
+
+                            <td class="px-8 py-8">
+
+                                <h4 class="text-xl font-bold text-primary">
+
+                                    Sales Executive
+
+                                </h4>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <p class="text-gray-600 leading-8 min-w-[320px]">
+
+                                    Join our professional sales and marketing team to expand veterinary healthcare distribution across Nepal.
+
+                                </p>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <span class="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary font-semibold text-sm">
+
+                                    Full Time
+
+                                </span>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <button
+                                    onclick="openModal()"
+                                    class="inline-flex items-center gap-3 text-primary font-semibold hover:text-secondary transition duration-300">
+
+                                    Apply Now
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <!-- Row -->
+                        <tr class="hover:bg-gray-50 transition duration-300">
+
+                            <td class="px-8 py-8">
+
+                                <h4 class="text-xl font-bold text-primary">
+
+                                    Product Specialist
+
+                                </h4>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <p class="text-gray-600 leading-8 min-w-[320px]">
+
+                                    Seeking motivated professionals with veterinary product knowledge and technical communication skills.
+
+                                </p>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <span class="inline-flex items-center px-4 py-2 rounded-full bg-secondary/10 text-secondary font-semibold text-sm">
+
+                                    Full Time
+
+                                </span>
+
+                            </td>
+
+                            <td class="px-8 py-8">
+
+                                <button
+                                    onclick="openModal()"
+                                    class="inline-flex items-center gap-3 text-primary font-semibold hover:text-secondary transition duration-300">
+
+                                    Apply Now
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= APPLICATION MODAL ========================= -->
+<div
+    id="careerModal"
+    class="fixed inset-0 z-[999] hidden items-center justify-center bg-black/70 backdrop-blur-sm p-4">
+
+    <!-- Modal Box -->
+    <div class="bg-white rounded-[32px] shadow-2xl w-full max-w-5xl max-h-[95vh] overflow-y-auto relative reveal">
+
+        <!-- Close -->
+        <button
+            onclick="closeModal()"
+            class="absolute top-5 right-5 w-11 h-11 rounded-full bg-red-500 text-white hover:bg-red-600 transition duration-300 z-20">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <!-- Header -->
+        <div class="bg-primary px-8 md:px-12 py-8 rounded-t-[32px]">
+
+            <h3 class="text-3xl md:text-4xl font-bold text-white">
+
+                Career Application Form
+
+            </h3>
+
+            <p class="mt-3 text-white/75 leading-8">
+
+                Apply for exciting career opportunities at Kantipur Pharmaceuticals Lab Limited.
+
+            </p>
+
+        </div>
+
+        <!-- Form -->
+        <div class="p-8 md:p-12">
+
+            <form>
+
+                <!-- Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <!-- Full Name -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Full Name *
 
                         </label>
 
-                        <!-- Cover Letter -->
-                        <label class="cursor-pointer inline-flex items-center gap-3 bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-4 rounded-xl transition">
+                        <input
+                            type="text"
+                            placeholder="Enter full name"
+                            class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
+
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Phone Number *
+
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Enter phone number"
+                            class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
+
+                    </div>
+
+                    <!-- Email -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Email Address *
+
+                        </label>
+
+                        <input
+                            type="email"
+                            placeholder="Enter email address"
+                            class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
+
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Experience (Years) *
+
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Enter experience"
+                            class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
+
+                    </div>
+
+                    <!-- Current Organization -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Current Organization *
+
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Current organization"
+                            class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
+
+                    </div>
+
+                    <!-- Current CTC -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Current CTC *
+
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Current salary / CTC"
+                            class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
+
+                    </div>
+
+                </div>
+
+                <!-- Message -->
+                <div class="mt-6 reveal">
+
+                    <label class="block text-sm font-semibold text-primary mb-3">
+
+                        Cover Letter / Message
+
+                    </label>
+
+                    <textarea
+                        rows="6"
+                        placeholder="Write your message..."
+                        class="w-full rounded-[28px] border border-gray-200 bg-gray-50 px-5 py-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300 resize-none"></textarea>
+
+                </div>
+
+                <!-- Upload -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+
+                    <!-- CV -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Upload CV *
+
+                        </label>
+
+                        <label class="flex items-center justify-center gap-3 h-14 rounded-2xl border border-dashed border-primary bg-primary/5 cursor-pointer hover:bg-primary hover:text-white transition duration-300">
 
                             <i class="fa-solid fa-cloud-arrow-up"></i>
 
-                            <span>Upload Cover Letter</span>
+                            <span class="font-medium">
+                                Choose File
+                            </span>
 
                             <input type="file" class="hidden">
 
@@ -290,15 +541,42 @@ include 'include/header.php';
 
                     </div>
 
-                    <!-- Submit -->
+                    <!-- Cover Letter -->
+                    <div class="reveal">
+
+                        <label class="block text-sm font-semibold text-primary mb-3">
+
+                            Upload Cover Letter
+
+                        </label>
+
+                        <label class="flex items-center justify-center gap-3 h-14 rounded-2xl border border-dashed border-secondary bg-secondary/5 cursor-pointer hover:bg-secondary hover:text-white transition duration-300">
+
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                            <span class="font-medium">
+                                Choose File
+                            </span>
+
+                            <input type="file" class="hidden">
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <!-- Button -->
+                <div class="mt-10 reveal">
+
                     <button
                         type="submit"
-                        class="inline-flex items-center justify-center gap-3 bg-[#0d3b66] hover:bg-yellow-500 text-white px-8 py-4 rounded-full transition duration-300">
-                        <span class="font-medium tracking-wide">
-                            SUBMIT NOW
-                        </span>
+                        class="primary-btn border-0 cursor-pointer">
 
-                        <i class="fa-solid fa-paw"></i>
+                        Submit Application
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
                     </button>
 
                 </div>
@@ -311,23 +589,23 @@ include 'include/header.php';
 
 </div>
 
-<!-- ========================= Modal Script ========================= -->
+<!-- ========================= MODAL SCRIPT ========================= -->
 <script>
-    const modal = document.getElementById('careerModal');
+    const modal = document.getElementById("careerModal");
 
     function openModal() {
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-        document.body.style.overflow = 'hidden';
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+        document.body.style.overflow = "hidden";
     }
 
     function closeModal() {
-        modal.classList.add('hidden');
-        modal.classList.remove('flex');
-        document.body.style.overflow = '';
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+        document.body.style.overflow = "";
     }
 
-    window.addEventListener('click', (e) => {
+    window.addEventListener("click", (e) => {
         if (e.target === modal) {
             closeModal();
         }

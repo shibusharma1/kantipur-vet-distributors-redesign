@@ -1,201 +1,63 @@
 <?php
 include 'include/header.php';
 ?>
-<!-- ========================= Banner Section ========================= -->
+
+<!-- ========================= PAGE BANNER ========================= -->
 <section class="relative h-[420px] overflow-hidden">
+
+    <!-- Background -->
     <img
-        src="assets/img/commit/img4.jpg"
-        alt="Product Banner"
+        src="assets/img/vision.jpg"
+        alt="Product Detail"
         class="w-full h-full object-cover">
 
-    <div class="absolute inset-0 bg-black/60 flex items-center justify-center text-center px-4">
-        <div>
-            <h1 class="text-white text-3xl md:text-6xl font-bold leading-tight">
-                Clearcal-P-Oral
-            </h1>
-        </div>
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/55"></div>
+
+    <!-- Bottom Gradient -->
+    <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/40 to-transparent"></div>
+
+    <!-- Content -->
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+
+        <p class="text-white/80 uppercase tracking-[0.25em] text-sm reveal">
+
+            Home / Product Details
+
+        </p>
+
+        <h1 class="mt-5 text-white text-4xl md:text-6xl font-bold reveal">
+
+            Product Details
+
+        </h1>
+
     </div>
+
 </section>
 
-<!-- ========================= Product Detail Section ========================= -->
-<section class="py-12 bg-white">
+<!-- ========================= PRODUCT DETAIL ========================= -->
+<section class="py-20 md:py-24 bg-white overflow-hidden">
 
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 items-start">
 
-            <!-- ========================= Product Image ========================= -->
-            <div class="lg:col-span-1">
+            <!-- ========================= PRODUCT IMAGE ========================= -->
+            <div class="lg:col-span-5">
 
-                <div class="bg-gray-100 rounded-2xl p-8 flex items-center justify-center shadow-md overflow-hidden group">
+                <div class="sticky top-28 reveal">
 
-                    <img
-                        src="assets/img/product/1.png"
-                        alt="Product"
-                        class="max-h-[600px] object-contain transition duration-700 group-hover:scale-110">
+                    <!-- Product Card -->
+                    <div class="modern-card overflow-hidden p-8 md:p-10">
 
-                </div>
+                        <!-- Product Image -->
+                        <div class="bg-gradient-to-b from-white to-gray-50 rounded-[32px] p-10 flex items-center justify-center">
 
-            </div>
-
-            <!-- ========================= Product Content ========================= -->
-            <div class="lg:col-span-2">
-
-                <!-- ========================= Tabs ========================= -->
-                <!-- Tabs -->
-                <div class="flex flex-wrap gap-2 border-b border-gray-300">
-
-                    <button
-                        class="tab-btn active-tab px-6 py-3 rounded-t-xl bg-green-600 text-white font-semibold uppercase tracking-wide border-b-0 transition-all duration-300"
-                        data-tab="description">
-                        Description
-                    </button>
-
-                    <button
-                        class="tab-btn px-6 py-3 rounded-t-xl text-gray-700 font-semibold uppercase tracking-wide border-b-0 transition-all duration-300 hover:bg-gray-100"
-                        data-tab="benefit">
-                        Benefit/Purpose
-                    </button>
-
-                    <button
-                        class="tab-btn px-6 py-3 rounded-t-xl text-gray-700 font-semibold uppercase tracking-wide border-b-0 transition-all duration-300 hover:bg-gray-100"
-                        data-tab="other">
-                        Other Info
-                    </button>
-
-                </div>
-                <!-- ========================= Tab Content Wrapper ========================= -->
-                <div class="border border-gray-300 p-4 md:p-6 bg-white">
-
-                    <!-- ========================= Description ========================= -->
-                    <div class="tab-content" id="description">
-
-                        <h3 class="text-xl font-bold text-gray-600 mb-2">
-                            CLEARCAL-P-ORAL
-                        </h3>
-
-                        <div class="">
-
-                            <!-- Brand -->
-                            <div class="flex flex-row items-center">
-                                <h5 class="text-[#1f2f8a] font-bold uppercase mb-0">Brand Name:</h5>
-                                <span class="text-gray-700 leading-8 ml-2">Clearcal-P-Oral</span>
-                            </div>
-
-                            <!-- Composition -->
-                            <div>
-
-                                <h5 class="text-[#1f2f8a] font-bold uppercase mb-0">
-                                    Composition:
-                                </h5>
-
-                                <div class="text-gray-700 leading-7">
-
-                                    <p>Calcium from inorganic source</p>
-                                    <p>Calcium from organic source</p>
-                                    <p>Manganese</p>
-                                    <p>Phosphoric Acid</p>
-                                    <!-- <p>Vitamin D3</p>
-                                        <p>Sorbitol</p>
-                                        <p>Purified Water</p>
-                                        <p>Colorant</p> -->
-
-                                </div>
-
-                            </div>
-
-                            <!-- Description -->
-                            <div>
-
-                                <h5 class="text-[#1f2f8a] font-bold uppercase mb-0">
-                                    Description:
-                                </h5>
-
-                                <p class="text-gray-700 leading-8">
-                                    Optimum Nutrition for Egg-Cellent Flock
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- ========================= Benefit/Purpose ========================= -->
-                    <div class="tab-content hidden" id="benefit">
-
-                        <div class="space-y-2">
-
-                            <!-- Benefits -->
-                            <div>
-
-                                <h4 class="font-bold text-[#1f2f8a] mb-0">
-                                    Benefits of Intake
-                                </h4>
-
-                                <ol class="list-decimal pl-6 text-gray-700 leading-7 mb-1">
-
-                                    <li>For physical growth of chickens.</li>
-                                    <li>For treatment of anemia and weak bones.</li>
-                                    <li>Improves eggshell quality.</li>
-                                    <li>Enhances feed conversion ratio.</li>
-                                    <li>Increases egg and meat production.</li>
-
-                                </ol>
-
-                            </div>
-
-                            <!-- Purpose -->
-                            <div>
-
-                                <h4 class="font-bold text-[#1f2f8a] mb-0">
-                                    Purpose of Intake
-                                </h4>
-
-                                <ol class="list-decimal pl-6 text-gray-700 leading-7 mb-1">
-
-                                    <li>Supports poultry growth and development.</li>
-                                    <li>Provides calcium and mineral supplementation.</li>
-                                    <li>Improves bone strength and eggshell quality.</li>
-                                    <li>Maintains overall flock health.</li>
-                                    <li>Enhances poultry productivity.</li>
-
-                                </ol>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- ========================= Other Info ========================= -->
-                    <div class="tab-content hidden" id="other">
-
-                        <div class="space-y-3 text-gray-700 leading-8">
-
-                            <div>
-
-                                <h4 class="font-bold text-[#1f2f8a] mb-1">
-                                    Availability
-                                </h4>
-
-                                <p>
-                                    500 ml, 1 liter, 2 liters, 5 liters.
-                                </p>
-
-                            </div>
-
-                            <div>
-
-                                <h3 class="font-bold text-[#1f2f8a] mb-1">
-                                    Dosage
-                                </h3>
-
-                                <p>
-                                    Use as directed by veterinarian or poultry expert.
-                                </p>
-
-                            </div>
+                            <img
+                                src="assets/img/product/1.png"
+                                alt="Product"
+                                class="max-h-[500px] object-contain hover:scale-105 transition duration-700">
 
                         </div>
 
@@ -204,215 +66,427 @@ include 'include/header.php';
                 </div>
 
             </div>
+
+            <!-- ========================= PRODUCT CONTENT ========================= -->
+            <div class="lg:col-span-7">
+
+                <!-- Category -->
+                <p class="section-tag reveal">
+
+                    Feed Supplement
+
+                </p>
+
+                <!-- Title -->
+                <h2 class="mt-5 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+
+                    Vita-K Veterinary Supplement
+
+                </h2>
+
+                <!-- Description -->
+                <p class="mt-8 text-gray-600 leading-9 text-[16px] reveal">
+
+                    Vita-K is a premium veterinary feed supplement formulated to support animal health, improve nutritional balance and enhance overall livestock productivity. It is specially designed to strengthen immunity and support healthy growth across various animal sectors.
+
+                </p>
+
+                <p class="mt-6 text-gray-600 leading-9 text-[16px] reveal">
+
+                    Developed with advanced veterinary nutritional standards, Vita-K helps maintain better metabolic functions and supports improved performance in poultry, cattle and livestock industries.
+
+                </p>
+
+                <!-- Product Info -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+
+                    <!-- Item -->
+                    <div class="modern-card p-6 reveal">
+
+                        <div class="flex items-center gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-box text-primary text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <p class="text-sm uppercase tracking-wide text-gray-400">
+
+                                    Product Type
+
+                                </p>
+
+                                <h4 class="mt-1 text-xl font-semibold text-primary">
+
+                                    Feed Supplement
+
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Item -->
+                    <div class="modern-card p-6 reveal">
+
+                        <div class="flex items-center gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-paw text-secondary text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <p class="text-sm uppercase tracking-wide text-gray-400">
+
+                                    Suitable For
+
+                                </p>
+
+                                <h4 class="mt-1 text-xl font-semibold text-primary">
+
+                                    Poultry & Livestock
+
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Item -->
+                    <div class="modern-card p-6 reveal">
+
+                        <div class="flex items-center gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-flask text-primary text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <p class="text-sm uppercase tracking-wide text-gray-400">
+
+                                    Category
+
+                                </p>
+
+                                <h4 class="mt-1 text-xl font-semibold text-primary">
+
+                                    Veterinary Healthcare
+
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Item -->
+                    <div class="modern-card p-6 reveal">
+
+                        <div class="flex items-center gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-shield-heart text-secondary text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <p class="text-sm uppercase tracking-wide text-gray-400">
+
+                                    Quality
+
+                                </p>
+
+                                <h4 class="mt-1 text-xl font-semibold text-primary">
+
+                                    Premium Standard
+
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Features -->
+                <div class="mt-14">
+
+                    <h3 class="text-3xl font-bold text-primary reveal">
+
+                        Product Benefits
+
+                    </h3>
+
+                    <!-- List -->
+                    <div class="space-y-5 mt-8">
+
+                        <!-- Item -->
+                        <div class="flex items-start gap-4 reveal">
+
+                            <div class="w-11 h-11 rounded-xl bg-primary text-white flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-check"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-xl font-semibold text-primary">
+
+                                    Improves Nutritional Balance
+
+                                </h4>
+
+                                <p class="mt-2 text-gray-600 leading-8">
+
+                                    Supports healthier growth and nutritional efficiency in animals.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Item -->
+                        <div class="flex items-start gap-4 reveal">
+
+                            <div class="w-11 h-11 rounded-xl bg-secondary text-white flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-check"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-xl font-semibold text-primary">
+
+                                    Enhances Immunity
+
+                                </h4>
+
+                                <p class="mt-2 text-gray-600 leading-8">
+
+                                    Strengthens animal resistance and supports healthier livestock systems.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Item -->
+                        <div class="flex items-start gap-4 reveal">
+
+                            <div class="w-11 h-11 rounded-xl bg-primary text-white flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-check"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-xl font-semibold text-primary">
+
+                                    Supports Better Productivity
+
+                                </h4>
+
+                                <p class="mt-2 text-gray-600 leading-8">
+
+                                    Helps improve livestock performance and production quality.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CTA -->
+                <div class="mt-14 reveal">
+
+                    <a
+                        href="contact.php"
+                        class="primary-btn">
+
+                        Contact For Inquiry
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
 
+    </div>
+
 </section>
 
-<!-- ========================= Similar Products Section ========================= -->
-<section class="py-10 bg-gray-100">
+<!-- ========================= RELATED PRODUCTS ========================= -->
+<section class="pb-20 md:pb-24 bg-[#F7F8FA] overflow-hidden">
 
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <!-- Section Header -->
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-6">
+        <!-- Heading -->
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-16">
 
-            <h2 class="text-4xl font-bold text-[#0d3b66]">
-                Similar Products
-            </h2>
+            <div>
 
-            <a href="product-list.php"
-                class="group inline-flex items-center gap-4 
-                                    bg-green-600 text-white font-semibold 
-                                    px-3.5 py-1 rounded-full 
-                                    border-2 border-green-600
-                                    transition-all duration-300 ease-in-out
-                                    hover:bg-white hover:text-green-600">
+                <p class="section-tag reveal">
 
-                <span class="uppercase tracking-wide text-sm">
-                    EXPLORE MORE
-                </span>
+                    Related Products
 
-                <span class="w-8 h-8 flex items-center justify-center 
-                                        rounded-full bg-white text-green-600
-                                        transition-all duration-300 ease-in-out
-                                        group-hover:bg-green-600 group-hover:text-white">
+                </p>
+
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+
+                    More Veterinary Solutions
+
+                </h2>
+
+            </div>
+
+            <div class="reveal">
+
+                <a
+                    href="product-list.php"
+                    class="primary-btn">
+
+                    View All Products
+
                     <i class="fa-solid fa-arrow-right"></i>
-                </span>
-            </a>
+
+                </a>
+
+            </div>
 
         </div>
 
         <!-- Product Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
 
-        <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+            <!-- Product -->
+            <a
+                href="product-detail.php"
+                class="product-card reveal group">
 
-            <!-- Product Card -->
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                <div class="product-card-image">
 
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
-
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
+                    <img
+                        src="assets/img/product/1.png"
+                        alt="Product">
 
                 </div>
+
+                <div class="product-card-content">
+
+                    <h3 class="text-sm md:text-base font-semibold text-primary">
+
+                        Clearcal-P-Oral
+
+                    </h3>
+
+                </div>
+
             </a>
 
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+            <!-- Product -->
+            <a
+                href="product-detail.php"
+                class="product-card reveal group">
 
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
+                <div class="product-card-image">
 
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
+                    <img
+                        src="assets/img/product/1.png"
+                        alt="Product">
 
                 </div>
+
+                <div class="product-card-content">
+
+                    <h3 class="text-sm md:text-base font-semibold text-primary">
+
+                        Poultry Supplement
+
+                    </h3>
+
+                </div>
+
             </a>
 
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+            <!-- Product -->
+            <a
+                href="product-detail.php"
+                class="product-card reveal group">
 
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
+                <div class="product-card-image">
 
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
+                    <img
+                        src="assets/img/product/1.png"
+                        alt="Product">
 
                 </div>
+
+                <div class="product-card-content">
+
+                    <h3 class="text-sm md:text-base font-semibold text-primary">
+
+                        Animal Care
+
+                    </h3>
+
+                </div>
+
             </a>
 
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+            <!-- Product -->
+            <a
+                href="product-detail.php"
+                class="product-card reveal group">
 
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
+                <div class="product-card-image">
 
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
+                    <img
+                        src="assets/img/product/1.png"
+                        alt="Product">
 
                 </div>
-            </a>
 
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                <div class="product-card-content">
 
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
+                    <h3 class="text-sm md:text-base font-semibold text-primary">
 
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
+                        Livestock Formula
+
+                    </h3>
 
                 </div>
-            </a>
 
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
-
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
-
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
-
-                </div>
-            </a>
-
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
-
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
-
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
-
-                </div>
-            </a>
-
-            <a href="product-detail.php" class="group">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition duration-300">
-
-                    <!-- Image Section -->
-                    <div class="h-[220px] flex items-center justify-center p-4 bg-white">
-                        <img
-                            src="assets/img/product/1.png"
-                            alt="Product"
-                            class="max-h-full object-contain transition duration-300 group-hover:scale-105">
-                    </div>
-
-                    <!-- Bottom Label -->
-                    <div class="bg-[#d6d2e6] text-center py-3">
-                        <h3 class="text-sm font-semibold text-gray-800">
-                            Vita-K
-                        </h3>
-                    </div>
-
-                </div>
             </a>
 
         </div>
@@ -421,27 +495,6 @@ include 'include/header.php';
 
 </section>
 
-<!-- ========================= Tabs Script ========================= -->
-<script>
-    const tabBtns = document.querySelectorAll(".tab-btn");
-    const tabContents = document.querySelectorAll(".tab-content");
-
-    tabBtns.forEach(btn => {
-        btn.addEventListener("click", () => {
-
-            tabBtns.forEach(button => {
-                button.classList.remove("bg-green-600", "text-white", "border", "border-gray-300", "border-b-0");
-                button.classList.add("text-gray-700", "hover:bg-gray-100");
-            });
-
-            btn.classList.remove("text-gray-700", "hover:bg-gray-100");
-            btn.classList.add("bg-green-600", "text-white", "border", "border-gray-300", "border-b-0");
-
-            tabContents.forEach(content => content.classList.add("hidden"));
-            document.getElementById(btn.dataset.tab).classList.remove("hidden");
-        });
-    });
-</script>
 <?php
 include 'include/footer.php';
 ?>
