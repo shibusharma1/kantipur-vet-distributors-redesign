@@ -130,6 +130,16 @@ p {
   backdrop-filter: blur(14px);
   box-shadow: var(--shadow-md);
 }
+
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
 /* ========================= NAVIGATION ========================= */
 .nav-link {
   position: relative;
