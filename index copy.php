@@ -3,7 +3,7 @@ include 'include/header.php';
 ?>
 
 <!-- ========================= HERO SECTION ========================= -->
-<section class="homepage-banner relative py-12 md:py-12 overflow-hidden">
+<section class="homepage-banner relative overflow-hidden">
     <!-- Background -->
     <div class="absolute inset-0">
         <img src="assets/img/banner.jpg" alt="Banner" class="w-full h-full object-cover">
@@ -362,6 +362,10 @@ OUR STORY SECTION
                             Kantipur Vet Distributors Pvt. Ltd.
                         </p>
                     </div>
+                    <!-- OPTIONAL SIGN -->
+                    <div class="text-5xl text-[var(--color-primary)]/15 font-bold italic">
+                        KVD
+                    </div>
                 </div>
             </div>
         </div>
@@ -371,7 +375,7 @@ OUR STORY SECTION
 <!-- =========================================
    GALLERY & CORPORATE VIDEOS SECTION
    ========================================= -->
-<section id="gallery" class="relativepy-12 md:py-12 overflow-hidden bg-[var(--color-dark)]">
+<section id="gallery" class="relative py-24 overflow-hidden bg-[var(--color-dark)]">
     <!-- Background Glow -->
     <div class="absolute top-0 left-0 w-[420px] h-[420px] bg-[var(--color-primary)]/20 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
@@ -749,7 +753,7 @@ OUR STORY SECTION
 <!-- =========================================
    SERVICES SECTION
    ========================================= -->
-<section id="services" class="relative py-12 md:py-12 bg-[var(--color-soft-bg)] overflow-hidden">
+<section id="services" class="relative py-24 bg-[var(--color-soft-bg)] overflow-hidden">
     <!-- BACKGROUND SHAPES -->
     <div class="absolute top-0 right-0 w-[420px] h-[420px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 w-[320px] h-[320px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
@@ -872,7 +876,7 @@ OUR STORY SECTION
 <!-- =========================================
    GLOBAL PARTNERS SECTION
    ========================================= -->
-<section id="partners" class="py-12 md:py-12 bg-white overflow-hidden relative">
+<section id="partners" class="py-24 bg-white overflow-hidden relative">
     <!-- BACKGROUND -->
     <div class="absolute top-0 right-0 w-[400px] h-[400px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
@@ -1031,7 +1035,7 @@ OUR STORY SECTION
 <!-- =========================================
    NUMBERS / STATS SECTION
    ========================================= -->
-<section id="numbers" class="relativepy-12 md:py-12 bg-white overflow-hidden">
+<section id="numbers" class="relative py-24 bg-white overflow-hidden">
     <!-- BACKGROUND -->
     <div class="absolute inset-0 bg-[linear-gradient(to_bottom,#ffffff,#f8fafc)]"></div>
     <!-- SHAPES -->
@@ -1252,7 +1256,7 @@ OUR STORY SECTION
 <!-- =========================================
    SERVING ALL OF NEPAL
    ========================================= -->
-<section id="coverage" class="relativepy-12 md:py-12 overflow-hidden bg-[var(--color-soft-bg)]">
+<section id="coverage" class="relative py-24 overflow-hidden bg-[var(--color-soft-bg)]">
     <!-- BACKGROUND -->
     <div class="absolute top-0 left-0 w-[400px] h-[400px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 right-0 w-[320px] h-[320px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
@@ -1422,289 +1426,496 @@ OUR STORY SECTION
 </section>
 
 <!-- =========================================
-   LATEST NEWS & ANNOUNCEMENTS
-   ========================================= -->
-<section id="news" class="relativepy-12 md:py-12 overflow-hidden bg-[var(--color-soft-bg)]">
+LATEST NEWS & ANNOUNCEMENTS
+========================================= -->
+<section id="news" class="relative py-24 overflow-hidden bg-[var(--color-soft-bg)]">
+
     <!-- BACKGROUND -->
     <div class="absolute top-0 right-0 w-[420px] h-[420px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
+
     <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
+
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
+
         <!-- HEADER -->
         <div class="max-w-3xl reveal">
+
             <span class="section-tag">
                 Latest Updates
             </span>
+
             <h2 class="mt-5 text-4xl md:text-5xl font-bold leading-tight">
+
                 News &
                 <span class="text-[var(--color-secondary)] italic">
                     Announcements
                 </span>
+
             </h2>
+
             <p class="mt-6 text-[17px] leading-9 max-w-2xl">
                 Stay updated with the latest announcements, partnerships, technical programs, and veterinary industry news from Kantipur Vet Distributors.
             </p>
+
         </div>
+
         <!-- NEWS LAYOUT -->
         <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-8 mt-16">
+
             <!-- FEATURED NEWS -->
             <div class="reveal">
+
                 <div class="group relative overflow-hidden rounded-[36px] bg-[var(--color-primary)] p-10 md:p-12 h-full shadow-[0_20px_60px_rgba(52,47,127,0.15)]">
+
                     <!-- GLOW -->
                     <div class="absolute top-0 right-0 w-[240px] h-[240px] bg-white/10 rounded-full blur-3xl"></div>
+
                     <div class="relative z-10">
+
                         <!-- TAG -->
                         <div class="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-white/10 border border-white/10 text-white text-xs uppercase tracking-[0.15em] font-bold">
+
                             <span class="w-2 h-2 rounded-full bg-[var(--color-secondary)]"></span>
+
                             Latest Announcement
+
                         </div>
+
                         <!-- DATE -->
                         <div class="mt-8 text-white/60 text-sm font-semibold tracking-wide uppercase">
+
                             June 3, 2025
+
                         </div>
+
                         <!-- TITLE -->
                         <h3 class="mt-5 text-3xl md:text-4xl font-bold leading-tight text-white">
+
                             Important Notice Regarding Product Distribution & Dealer Verification
+
                         </h3>
+
                         <!-- TEXT -->
                         <p class="mt-7 text-white/75 text-[17px] leading-9 max-w-2xl">
+
                             Kantipur Vet Distributors issues an important public notice regarding authorized dealer verification and official distribution channels for veterinary healthcare products across Nepal.
+
                         </p>
+
                         <!-- LINK -->
                         <div class="mt-10">
+
                             <a href="#"
                                 class="inline-flex items-center gap-3 text-[var(--color-secondary)] font-bold text-lg hover:gap-5 transition-all duration-300">
+
                                 Read Full Notice
+
                                 <i class="fa-solid fa-arrow-right"></i>
+
                             </a>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
             <!-- NEWS LIST -->
             <div class="space-y-5 reveal">
+
                 <!-- ITEM -->
                 <div class="modern-card bg-white p-7 group cursor-pointer">
+
                     <div class="flex items-start justify-between gap-5">
+
                         <div>
+
                             <div class="text-xs uppercase tracking-[0.15em] font-bold text-[var(--color-secondary)]">
                                 May 2025
                             </div>
+
                             <h4 class="mt-3 text-xl font-bold leading-8 group-hover:text-[var(--color-primary)] transition">
+
                                 New Partnership with Leading European Vaccine Manufacturer
+
                             </h4>
+
                         </div>
+
                         <div class="w-12 h-12 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--color-primary)] group-hover:text-white transition duration-300">
+
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
                         </div>
+
                     </div>
+
                 </div>
+
                 <!-- ITEM -->
                 <div class="modern-card bg-white p-7 group cursor-pointer">
+
                     <div class="flex items-start justify-between gap-5">
+
                         <div>
+
                             <div class="text-xs uppercase tracking-[0.15em] font-bold text-[var(--color-secondary)]">
                                 March 2025
                             </div>
+
                             <h4 class="mt-3 text-xl font-bold leading-8 group-hover:text-[var(--color-primary)] transition">
+
                                 KVD Hosts Annual Veterinary Technical Training at KVD Complex
+
                             </h4>
+
                         </div>
+
                         <div class="w-12 h-12 rounded-2xl bg-green-100 text-[var(--color-secondary)] flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--color-secondary)] group-hover:text-white transition duration-300">
+
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
                         </div>
+
                     </div>
+
                 </div>
+
                 <!-- ITEM -->
                 <div class="modern-card bg-white p-7 group cursor-pointer">
+
                     <div class="flex items-start justify-between gap-5">
+
                         <div>
+
                             <div class="text-xs uppercase tracking-[0.15em] font-bold text-[var(--color-secondary)]">
                                 January 2025
                             </div>
+
                             <h4 class="mt-3 text-xl font-bold leading-8 group-hover:text-[var(--color-primary)] transition">
+
                                 Poultry Disease Alert & Biosecurity Recommendations
+
                             </h4>
+
                         </div>
+
                         <div class="w-12 h-12 rounded-2xl bg-orange-100 text-orange-500 flex items-center justify-center flex-shrink-0 group-hover:bg-orange-500 group-hover:text-white transition duration-300">
+
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
                         </div>
+
                     </div>
+
                 </div>
+
                 <!-- ITEM -->
                 <div class="modern-card bg-white p-7 group cursor-pointer">
+
                     <div class="flex items-start justify-between gap-5">
+
                         <div>
+
                             <div class="text-xs uppercase tracking-[0.15em] font-bold text-[var(--color-secondary)]">
                                 December 2024
                             </div>
+
                             <h4 class="mt-3 text-xl font-bold leading-8 group-hover:text-[var(--color-primary)] transition">
+
                                 KVD Awarded Best Animal Health Distributor at Nepal Agri Expo
+
                             </h4>
+
                         </div>
+
                         <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-500 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500 group-hover:text-white transition duration-300">
+
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </section>
 
-<!-- ========================= CONTACT SECTION ========================= -->
+<!-- ========================= ABOUT SECTION ========================= -->
 <section class="py-12 md:py-12 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 items-start">
-            <!-- ========================= LEFT CONTENT ========================= -->
-            <div class="lg:col-span-5 pt-8">
-                <p class="section-tag reveal">
-                    Get In Touch
-                </p>
-                <h2 class="mt-5 text-3xl md:text-4xl font-bold leading-tight text-primary reveal">
-                    We’d Love To Hear From You.
-                </h2>
-                <p class="mt-5 text-gray-600 leading-8 reveal">
-                    Contact Kantipur Pharmaceuticals Lab Limited for veterinary healthcare products, technical support, product inquiries and partnership opportunities across Nepal.
-                </p>
-                <!-- Contact Cards -->
-                <div class="space-y-2 mt-8">
-                    <!-- Office -->
-                    <div class="modern-card p-4  flex items-start gap-5 reveal">
-                        <div class="w-16 h-16 rounded-3xl bg-primary/10 flex items-center justify-center flex-shrink-0">
-                            <i class="fa-solid fa-location-dot text-primary text-2xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-xl font-semibold text-primary">
-                                Corporate Office
-                            </h4>
-                            <p class="mt-2 text-gray-500 leading-8">
-                                Balkumari, Lalitpur, Nepal
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Factory -->
-                    <div class="modern-card p-4  flex items-start gap-5 reveal">
-                        <div class="w-16 h-16 rounded-3xl bg-secondary/10 flex items-center justify-center flex-shrink-0">
-                            <i class="fa-solid fa-industry text-secondary text-2xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-xl font-semibold text-primary">
-                                Factory Address
-                            </h4>
-                            <p class="mt-2 text-gray-500 leading-8">
-                                Hokshe, Kavre
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Phone -->
-                    <div class="modern-card p-4  flex items-start gap-5 reveal">
-                        <div class="w-16 h-16 rounded-3xl bg-primary/10 flex items-center justify-center flex-shrink-0">
-                            <i class="fa-solid fa-phone text-primary text-2xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-xl font-semibold text-primary">
-                                Phone Number
-                            </h4>
-                            <p class="mt-2 text-gray-500 leading-8">
-                                +977-01-5186604
-                            </p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+            <!-- Image -->
+            <div class="relative reveal">
+                <div class="overflow-hidden rounded-[32px] shadow-2xl">
+                    <img src="assets/img/company.jpg" alt="About" class="w-full h-[600px] object-cover hover:scale-105 transition duration-700">
+                </div>
 
-                        </div>
-                    </div>
-                    <!-- Email -->
-                    <div class="modern-card p-4  flex items-start gap-5 reveal">
-                        <div class="w-16 h-16 rounded-3xl bg-secondary/10 flex items-center justify-center flex-shrink-0">
-                            <i class="fa-solid fa-envelope text-secondary text-2xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-2xl font-semibold text-primary">
-                                Email Address
-                            </h4>
-                            <p class="mt-2 text-gray-500 leading-8 break-all">
-                                info@kantipurpharma.com
-                            </p>
-                        </div>
-                    </div>
+                <!-- Floating Card -->
+                <div class="absolute -bottom-10 -right-4 bg-white rounded-3xl shadow-2xl px-8 py-6 border border-gray-100 hidden md:block">
+                    <h4 class="text-4xl font-bold text-primary">
+                        10+
+                    </h4>
+
+                    <p class="mt-1 text-gray-500 text-sm">
+                        Years of Excellence
+                    </p>
+
                 </div>
             </div>
-            <!-- ========================= FORM ========================= -->
-            <div class="lg:col-span-7">
-                <div class="modern-card p-8 md:p-12 reveal">
-                    <div class="mb-10">
-                        <p class="section-tag">
-                            Send Message
+
+            <!-- Content -->
+            <div>
+                <p class="section-tag reveal">
+                    About Us
+                </p>
+
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+                    Welcome To Kantipur Pharmaceuticals Lab Limited.
+                </h2>
+
+                <p class="mt-4 text-gray-600 leading-8 reveal">
+                    Established in 2073 B.S., Kantipur Pharmaceuticals Lab Limited (KPL) is a Nepal-based veterinary pharmaceutical company committed to delivering innovative and reliable healthcare solutions for animals.
+                </p>
+
+                <!-- <p class="mt-5 text-gray-600 leading-8 reveal">
+                    We continuously focus on high-quality feed supplements, nutritional products, allopathic medicines and advanced veterinary solutions to support healthier and more productive livestock industries.
+                </p> -->
+
+                <!-- Features -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-8">
+                    <div class="modern-card p-6 reveal">
+                        <img src="assets/img/icon/service.png" alt="" class="w-14 h-14">
+                        <h4 class="mt-4 text-xl font-semibold text-primary">
+                            Premium Quality
+                        </h4>
+
+                        <p class="mt-3 text-sm leading-7 text-gray-500">
+                            Every product meets high standards of safety, efficacy and performance.
                         </p>
-                        <h3 class="mt-5 text-3xl md:text-4xl font-bold text-primary">
-                            Contact Form
-                        </h3>
                     </div>
-                    <!-- Form -->
-                    <form action="#" method="POST">
-                        <!-- Grid -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <!-- Name -->
-                            <div>
-                                <label class="block text-sm font-semibold text-primary mb-3">
-                                    Full Name
-                                </label>
-                                <input
-                                    type="text"
-                                    placeholder="Enter your name"
-                                    class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
-                            </div>
-                            <!-- Email -->
-                            <div>
-                                <label class="block text-sm font-semibold text-primary mb-3">
-                                    Email Address
-                                </label>
-                                <input
-                                    type="email"
-                                    placeholder="Enter your email"
-                                    class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
-                            </div>
-                            <!-- Phone -->
-                            <div>
-                                <label class="block text-sm font-semibold text-primary mb-3">
-                                    Phone Number
-                                </label>
-                                <input
-                                    type="text"
-                                    placeholder="Enter your phone"
-                                    class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
-                            </div>
-                            <!-- Subject -->
-                            <div>
-                                <label class="block text-sm font-semibold text-primary mb-3">
-                                    Subject
-                                </label>
-                                <input type="text" placeholder="Enter subject"
-                                    class="w-full h-14 rounded-2xl border border-gray-200 bg-gray-50 px-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300">
-                            </div>
-                        </div>
-                        <!-- Message -->
-                        <div class="mt-6">
-                            <label class="block text-sm font-semibold text-primary mb-3">
-                                Message
-                            </label>
-                            <textarea
-                                rows="5"
-                                placeholder="Write your message..."
-                                class="w-full rounded-[28px] border border-gray-200 bg-gray-50 px-5 py-5 outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition duration-300 resize-none"></textarea>
-                        </div>
-                        <!-- Button -->
-                        <div class="mt-8">
-                            <button type="submit" class="primary-btn border-0 cursor-pointer">
-                                Send Message
-                                <i class="fa-solid fa-paper-plane"></i>
-                            </button>
-                        </div>
-                    </form>
+
+                    <div class="modern-card p-6 reveal">
+                        <img src="assets/img/icon/networking.png" alt="" class="w-14 h-14">
+                        <h4 class="mt-4 text-xl font-semibold text-primary">
+                            Distribution Network
+                        </h4>
+
+                        <p class="mt-3 text-sm leading-7 text-gray-500">
+                            Reliable product delivery and service support across Nepal.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="mt-5 reveal">
+                    <a href="about.php" class="primary-btn">
+                        Learn More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- ========================= WHY CHOOSE SECTION ========================= -->
+<section class="py-12 md:py-12 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <!-- Content -->
+            <div>
+                <p class="section-tag reveal">
+                    Why Choose Us
+                </p>
+
+                <h2 class="mt-5 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+                    Committed To Quality & Innovation.
+                </h2>
+
+                <p class="mt-7 text-gray-600 leading-8 reveal">
+                    With a strong focus on innovation, product quality and technical expertise, KPL continues to deliver trusted veterinary healthcare solutions throughout Nepal.
+                </p>
+
+                <!-- Timeline -->
+                <div class="mt-10 space-y-5">
+                    <div class="modern-card p-5 flex items-start gap-5 reveal">
+                        <div class="w-14 h-14 rounded-2xl bg-primary text-white flex items-center justify-center flex-shrink-0">
+                            <i class="fa-solid fa-shield-heart"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="text-lg font-semibold text-primary">
+                                Trusted Quality Products
+                            </h4>
+                            <p class="mt-2 text-sm leading-7 text-gray-500">
+                                Safe, effective and high-standard veterinary medicines.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="modern-card p-5 flex items-start gap-5 reveal">
+                        <div class="w-14 h-14 rounded-2xl bg-secondary text-white flex items-center justify-center flex-shrink-0">
+                            <i class="fa-solid fa-flask"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="text-lg font-semibold text-primary">
+                                Research & Innovation
+                            </h4>
+
+                            <p class="mt-2 text-sm leading-7 text-gray-500">
+                                Innovative healthcare solutions tailored for modern animal care.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="reveal">
+                <div class="overflow-hidden rounded-[32px] shadow-2xl">
+                    <img
+                        src="assets/img/vision.jpg"
+                        alt="Vision"
+                        class="w-full h-[600px] object-cover hover:scale-105 transition duration-700">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================= BLOG SECTION ========================= -->
+<section class="py-12 md:py-12 bg-[#F7F8FA] overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
+            <div>
+                <p class="section-tag reveal">
+                    Latest Blogs
+                </p>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+                    News & Insights
+                </h2>
+            </div>
+
+            <div class="reveal">
+                <a href="blog.php" class="primary-btn">
+                    View All Blogs
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Blog Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+            <!-- Blog -->
+            <div class="blog-card reveal group">
+                <a href="blog-detail.php" class="blog-card-image block">
+                    <img src="assets/img/blog1.png" alt="Blog">
+                </a>
+
+                <div class="mt-5">
+                    <!-- Meta -->
+                    <div class="flex items-center gap-5 text-sm text-gray-400 uppercase tracking-wide">
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-calendar text-secondary"></i>
+                            27 August, 2025
+                        </span>
+                    </div>
+
+                    <!-- Title -->
+                    <a href="blog-detail.php">
+                        <h3 class="mt-4 text-2xl font-bold text-primary leading-snug hover:text-secondary transition duration-300 two-line">
+                            Safe & Effective Solutions For Livestock Care
+                        </h3>
+                    </a>
+
+                    <!-- Text -->
+                    <p class="mt-4 text-gray-600 leading-8 three-line">
+                        Veterinary healthcare solutions play a vital role in maintaining healthy livestock, improving productivity and ensuring animal welfare.
+                    </p>
+
+                    <!-- Button -->
+                    <a href="blog-detail.php" class="inline-flex items-center gap-3 mt-6 text-secondary font-semibold hover:gap-4 transition-all duration-300">
+                        Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="blog-card reveal group">
+                <a href="blog-detail.php" class="blog-card-image block">
+                    <img src="assets/img/blog2.webp" alt="Blog">
+                </a>
+
+                <div class="mt-5">
+                    <div class="flex items-center gap-5 text-sm text-gray-400 uppercase tracking-wide">
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-calendar text-secondary"></i>
+                            27 August, 2025
+                        </span>
+                    </div>
+
+                    <a href="blog-detail.php">
+                        <h3 class="mt-4 text-2xl font-bold text-primary leading-snug hover:text-secondary transition duration-300 two-line">
+                            Advancing Animal Health Through Innovation
+                        </h3>
+                    </a>
+
+                    <p class="mt-4 text-gray-600 leading-8 three-line">
+                        Modern veterinary innovations are transforming the future of livestock healthcare and nutrition industries.
+                    </p>
+
+                    <a href="blog-detail.php" class="inline-flex items-center gap-3 mt-6 text-secondary font-semibold hover:gap-4 transition-all duration-300">
+                        Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="blog-card reveal group">
+                <a href="blog-detail.php" class="blog-card-image block">
+                    <img src="assets/img/blog3.jpeg" alt="Blog">
+                </a>
+
+                <div class="mt-5">
+                    <div class="flex items-center gap-5 text-sm text-gray-400 uppercase tracking-wide">
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-calendar text-secondary"></i>
+                            27 August, 2025
+                        </span>
+                    </div>
+
+                    <a href="blog-detail.php">
+                        <h3 class="mt-4 text-2xl font-bold text-primary leading-snug hover:text-secondary transition duration-300 two-line">
+                            Trusted Veterinary Medicines For Every Species
+                        </h3>
+                    </a>
+
+                    <p class="mt-4 text-gray-600 leading-8 three-line">
+                        Reliable healthcare products ensure stronger immunity and healthier growth across animal sectors.
+                    </p>
+
+                    <a href="blog-detail.php" class="inline-flex items-center gap-3 mt-6 text-secondary font-semibold hover:gap-4 transition-all duration-300">
+                        Read More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 include 'include/footer.php';
