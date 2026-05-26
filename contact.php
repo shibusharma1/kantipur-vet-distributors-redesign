@@ -19,7 +19,6 @@ include 'include/header.php';
         </h1>
     </div>
 </section>
-
 <!-- ========================= CONTACT SECTION ========================= -->
 <section class="py-12 md:py-12 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -173,7 +172,6 @@ include 'include/header.php';
         </div>
     </div>
 </section>
-
 <!-- ========================= MAP SECTION ========================= -->
 <section class="pb-12 md:pb-16 bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

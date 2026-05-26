@@ -3,7 +3,7 @@ include 'include/header.php';
 ?>
 
 <!-- ========================= HERO SECTION ========================= -->
-<section class="homepage-banner relative py-12 md:py-12 overflow-hidden">
+<section class="homepage-banner">
     <!-- Background -->
     <div class="absolute inset-0">
         <img src="assets/img/banner.jpg" alt="Banner" class="w-full h-full object-cover">
@@ -48,7 +48,7 @@ include 'include/header.php';
 <!-- =========================================
 OUR STORY SECTION
 ========================================= -->
-<section class="py-12 md:py-12 bg-white overflow-hidden relative">
+<section>
     <!-- Background Soft Shape -->
     <div class="absolute top-0 right-0 w-[420px] h-[420px] bg-green-100/40 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
@@ -65,13 +65,14 @@ OUR STORY SECTION
                     </span>
                     Since 2001
                 </h2>
-                <p class="mt-7 text-[17px] leading-9 max-w-2xl">
-                    Kantipur Vet Distributors Pvt. Ltd. was established with one clear mission — to bridge the gap between world-class animal health innovations and Nepal’s rapidly growing livestock industry.
-                </p>
-                <p class="mt-5 text-[17px] leading-9 max-w-2xl">
+                <p class="mt-6 text-[16px] leading-9 max-w-2xl">
+                    Kantipur Vet Distributors Pvt. Ltd. was established with one clear mission — to bridge the gap between world-class animal health innovations.
+                    <!-- and Nepal’s rapidly growing livestock industry. -->
+                    <!-- </p> -->
+                    <!-- <p class="mt-5 text-[16px] leading-9 max-w-2xl">
                     Over two decades, we have grown from a small distributor into Nepal’s leading importer and distributor of veterinary medicines, vaccines, and feed additives.
-                </p>
-                <p class="mt-5 text-[17px] leading-9 max-w-2xl">
+                </p> -->
+                    <!-- <p class="mt-5 text-[16px] leading-9 max-w-2xl"> -->
                     Our philosophy is simple:
                     <strong class="text-[var(--color-primary)]">
                         quality without compromise.
@@ -79,7 +80,7 @@ OUR STORY SECTION
                     Every product we distribute is rigorously sourced, properly stored, and delivered with full regulatory compliance.
                 </p>
                 <!-- STATS -->
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
                     <div class="modern-card p-6 text-center">
                         <h3 class="text-3xl font-bold text-[var(--color-primary)]">
                             23+
@@ -114,7 +115,7 @@ OUR STORY SECTION
                     </div>
                 </div>
                 <!-- BUTTON -->
-                <div class="mt-10">
+                <div class="mt-8">
                     <a href="#contact" class="primary-btn">
                         Learn More About Us
                         <i class="fa-solid fa-arrow-right"></i>
@@ -163,7 +164,7 @@ OUR STORY SECTION
                     </div>
                 </div>
                 <!-- FLOATING CARD -->
-                <div class="modern-card bg-white p-5 flex items-start gap-4 max-w-[320px] lg:absolute -bottom-8 -left-8 mt-6 lg:mt-0">
+                <!-- <div class="modern-card bg-white p-5 flex items-start gap-4 max-w-[320px] lg:absolute -bottom-8 -left-8 mt-6 lg:mt-0">
                     <div class="w-14 h-14 rounded-2xl bg-green-100 text-[var(--color-secondary)] flex items-center justify-center text-2xl flex-shrink-0">
                         <i class="fa-solid fa-shield-dog"></i>
                     </div>
@@ -174,18 +175,18 @@ OUR STORY SECTION
                         <p class="text-sm leading-7 mt-1">
                             Trusted veterinary distribution with world-class standards and reliable cold-chain systems.
                         </p>
-                    </div>
-                </div>
+                    </div> -->
             </div>
         </div>
+    </div>
     </div>
 </section>
 
 <!-- ========================= PRODUCTS SECTION ========================= -->
-<section class="py-12 md:py-12 bg-[#F7F8FA] overflow-hidden">
+<section>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Header -->
-        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
+        <!-- <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
             <div>
 
                 <p class="section-tag reveal">
@@ -195,6 +196,9 @@ OUR STORY SECTION
                 <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
                     Veterinary Healthcare Solutions
                 </h2>
+                <p class="mt-6 text-[16px] leading-9 max-w-2xl">
+                    Discover trusted veterinary healthcare solutions designed to support animal wellness, disease prevention, and modern livestock care across Nepal.
+                </p>
             </div>
 
             <div class="reveal">
@@ -203,8 +207,27 @@ OUR STORY SECTION
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
+        </div> -->
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10 mb-8">
+            <div>
+                <p class="section-tag reveal">
+                    Our Products
+                </p>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold leading-tight text-primary reveal">
+                    Veterinary Healthcare Solutions
+                </h2>
+                <p class="mt-6 text-[16px] leading-9 max-w-2xl">
+                    Discover trusted veterinary healthcare solutions designed to support animal wellness, disease prevention, and modern livestock care across Nepal.
+                </p>
+            </div>
+            <!-- BUTTON -->
+            <div class="reveal flex-shrink-0">
+                <a href="product-list.php" class="primary-btn">
+                    View All Products
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
         </div>
-
         <!-- Product Grid -->
         <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
             <!-- Product -->
@@ -265,7 +288,7 @@ OUR STORY SECTION
 <!-- =========================================
    MESSAGE FROM MD SECTION
    ========================================= -->
-<section class="py-12 md:py-12 bg-[var(--color-soft-bg)] overflow-hidden relative">
+<section>
     <!-- Background Shape -->
     <div class="absolute left-[-120px] top-20 w-[320px] h-[320px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
@@ -290,9 +313,13 @@ OUR STORY SECTION
                     <!-- IMAGE -->
                     <div class="relative rounded-[24px] overflow-hidden bg-gradient-to-br from-[var(--color-primary)] to-[#221d63] h-[520px] flex items-center justify-center">
                         <!-- Placeholder -->
-                        <div class="text-white text-8xl opacity-80">
+                        <!-- <div class="text-white text-8xl opacity-80">
                             👔
-                        </div>
+                        </div> -->
+                        <img
+                            src="./assets/img/md.jpg"
+                            alt="Managing Director"
+                            class="w-full h-full object-cover" />
                         <!-- Overlay -->
                         <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                         <!-- Caption -->
@@ -335,8 +362,8 @@ OUR STORY SECTION
                     </span>
                 </h3>
                 <!-- QUOTE -->
-                <div class="modern-card mt-8 p-8 border-l-4 border-[var(--color-secondary)] bg-white">
-                    <div class="text-5xl leading-none text-[var(--color-secondary)] mb-4">
+                <div class="modern-card mt-4 p-2 border-l-4 border-[var(--color-secondary)] bg-white">
+                    <div class="text-5xl leading-none text-[var(--color-secondary)]">
                         “
                     </div>
                     <p class="text-[18px] leading-9 italic text-[var(--color-dark)]">
@@ -345,10 +372,10 @@ OUR STORY SECTION
                 </div>
                 <!-- CONTENT -->
                 <div class="mt-8 space-y-6">
-                    <p class="text-[17px] leading-9">
+                    <p class="text-[16px] leading-9">
                         Since founding Kantipur Vet Distributors in 2001, our vision has remained steadfast: to be Nepal's most reliable partner in animal health. We have expanded our reach and strengthened our partnerships with global manufacturers to ensure Nepal's farmers receive world-class veterinary solutions.
-                    </p>
-                    <p class="text-[17px] leading-9">
+                        <!-- </p>
+                    <p class="text-[16px] leading-9"> -->
                         Today, with over 3,000 products, 40+ global partners, and a dedicated team of professionals, we continue to move forward with innovation, integrity, and commitment toward Nepal’s agricultural prosperity.
                     </p>
                 </div>
@@ -371,30 +398,30 @@ OUR STORY SECTION
 <!-- =========================================
    GALLERY & CORPORATE VIDEOS SECTION
    ========================================= -->
-<section id="gallery" class="relativepy-12 md:py-12 overflow-hidden bg-[var(--color-dark)]">
+<section id="gallery">
     <!-- Background Glow -->
     <div class="absolute top-0 left-0 w-[420px] h-[420px] bg-[var(--color-primary)]/20 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
         <!-- SECTION HEADER -->
-        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
-            <span class="inline-flex items-center gap-3 text-white text-[13px] font-bold uppercase tracking-[0.18em]">
-                <span class="w-9 h-[2px] bg-[var(--color-secondary)]"></span>
+        <div class="text-center max-w-3xl mx-auto mb-8 reveal">
+            <span class="section-tag inline-flex items-center gap-3 text-[13px] font-bold uppercase tracking-[0.18em]">
+                <!-- <span class="w-9 h-[2px] bg-[var(--color-secondary)]"></span> -->
                 Our Gallery
             </span>
-            <h2 class="mt-5 text-4xl md:text-5xl font-bold leading-tight text-white">
+            <h2 class="mt-5 text-4xl md:text-5xl font-bold leading-tight">
                 Corporate
                 <span class="text-[var(--color-secondary)]">
                     Videos
                 </span>
                 & Gallery
             </h2>
-            <p class="mt-6 text-white/70 text-[17px] leading-9">
+            <p class="mt-4 text-[16px] leading-9">
                 Watch our corporate story, explore our operations, and discover life at KVD through our visual journey.
             </p>
         </div>
         <!-- GALLERY GRID -->
         <!-- <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
-         <div class="group relative overflow-hidden rounded-[30px] modern-card reveal bg-black">
+         <div class="group rounded-[30px] modern-card reveal bg-black">
          
              
              <div class="relative h-[320px] overflow-hidden">
@@ -439,7 +466,7 @@ OUR STORY SECTION
          </div>
          
          
-         <div class="group relative overflow-hidden rounded-[30px] modern-card reveal bg-black">
+         <div class="group rounded-[30px] modern-card reveal bg-black">
          
              <div class="relative h-[320px] overflow-hidden">
          
@@ -480,7 +507,7 @@ OUR STORY SECTION
          </div>
          
          
-         <div class="group relative overflow-hidden rounded-[30px] modern-card reveal bg-black">
+         <div class="group rounded-[30px] modern-card reveal bg-black">
          
              <div class="relative h-[320px] overflow-hidden">
          
@@ -524,10 +551,10 @@ OUR STORY SECTION
         <!-- =========================================
          GALLERY GRID
          ========================================= -->
-        <div class="grid lg:grid-cols-12 gap-5 mt-16">
+        <div class="grid lg:grid-cols-12 gap-5">
             <!-- LARGE VIDEO -->
             <div class="lg:col-span-6 reveal">
-                <div class="group relative h-[520px] overflow-hidden rounded-[30px] bg-black modern-card">
+                <div class="group relative h-[420px] overflow-hidden rounded-[30px] bg-black modern-card">
                     <!-- IMAGE -->
                     <img
                         src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop"
@@ -538,9 +565,9 @@ OUR STORY SECTION
                     <div class="absolute inset-0 bg-gradient-to-t from-[rgba(0,0,0,0.88)] via-[rgba(0,0,0,0.15)] to-transparent"></div>
                     <!-- PLAY BUTTON -->
                     <button
-                        data-video="https://www.w3schools.com/html/mov_bbb.mp4"
+                        data-video="./assets/vdo/kvd.mp4"
                         class="video-btn absolute inset-0 flex items-center justify-center">
-                        <div class="w-24 h-24 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_40px_rgba(56,172,75,0.5)] transition duration-300 group-hover:scale-110">
+                        <div class="w-12 h-12 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_40px_rgba(56,172,75,0.5)] transition duration-300 group-hover:scale-110">
                             <i class="fa-solid fa-play text-3xl ml-1"></i>
                         </div>
                     </button>
@@ -560,7 +587,7 @@ OUR STORY SECTION
                 <div class="grid sm:grid-cols-2 gap-5">
                     <!-- ITEM -->
                     <div class="reveal">
-                        <div class="group relative h-[250px] overflow-hidden rounded-[28px] bg-black modern-card">
+                        <div class="group relative h-[200px] overflow-hidden rounded-[28px] bg-black modern-card">
                             <img
                                 src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1200&auto=format&fit=crop"
                                 alt=""
@@ -568,9 +595,9 @@ OUR STORY SECTION
                                 class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                             <button
-                                data-video="https://www.w3schools.com/html/movie.mp4"
+                                data-video="./assets/vdo/kvd.mp4"
                                 class="video-btn absolute inset-0 flex items-center justify-center">
-                                <div class="w-16 h-16 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
+                                <div class="w-10 h-10 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
                                     <i class="fa-solid fa-play text-xl ml-1"></i>
                                 </div>
                             </button>
@@ -583,7 +610,7 @@ OUR STORY SECTION
                     </div>
                     <!-- ITEM -->
                     <div class="reveal">
-                        <div class="group relative h-[250px] overflow-hidden rounded-[28px] bg-black modern-card">
+                        <div class="group relative h-[200px] overflow-hidden rounded-[28px] bg-black modern-card">
                             <img
                                 src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?q=80&w=1200&auto=format&fit=crop"
                                 alt=""
@@ -591,9 +618,9 @@ OUR STORY SECTION
                                 class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                             <button
-                                data-video="https://www.w3schools.com/html/mov_bbb.mp4"
+                                data-video="./assets/vdo/kvd.mp4"
                                 class="video-btn absolute inset-0 flex items-center justify-center">
-                                <div class="w-16 h-16 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
+                                <div class="w-10 h-10 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
                                     <i class="fa-solid fa-play text-xl ml-1"></i>
                                 </div>
                             </button>
@@ -606,7 +633,7 @@ OUR STORY SECTION
                     </div>
                     <!-- ITEM -->
                     <div class="reveal">
-                        <div class="group relative h-[250px] overflow-hidden rounded-[28px] bg-black modern-card">
+                        <div class="group relative h-[200px] overflow-hidden rounded-[28px] bg-black modern-card">
                             <img
                                 src="https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?q=80&w=1200&auto=format&fit=crop"
                                 alt=""
@@ -614,9 +641,9 @@ OUR STORY SECTION
                                 class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                             <button
-                                data-video="https://www.w3schools.com/html/movie.mp4"
+                                data-video="./assets/vdo/kvd.mp4"
                                 class="video-btn absolute inset-0 flex items-center justify-center">
-                                <div class="w-16 h-16 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
+                                <div class="w-10 h-10 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
                                     <i class="fa-solid fa-play text-xl ml-1"></i>
                                 </div>
                             </button>
@@ -629,7 +656,7 @@ OUR STORY SECTION
                     </div>
                     <!-- ITEM -->
                     <div class="reveal">
-                        <div class="group relative h-[250px] overflow-hidden rounded-[28px] bg-black modern-card">
+                        <div class="group relative h-[200px] overflow-hidden rounded-[28px] bg-black modern-card">
                             <img
                                 src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop"
                                 alt=""
@@ -637,9 +664,9 @@ OUR STORY SECTION
                                 class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                             <button
-                                data-video="https://www.w3schools.com/html/mov_bbb.mp4"
+                                data-video="./assets/vdo/kvd.mp4"
                                 class="video-btn absolute inset-0 flex items-center justify-center">
-                                <div class="w-16 h-16 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
+                                <div class="w-10 h-10 rounded-full bg-[var(--color-secondary)] text-white flex items-center justify-center shadow-[0_0_30px_rgba(56,172,75,0.45)] transition duration-300 group-hover:scale-110">
                                     <i class="fa-solid fa-play text-xl ml-1"></i>
                                 </div>
                             </button>
@@ -655,108 +682,18 @@ OUR STORY SECTION
         </div>
     </div>
 </section>
-<!-- =========================================
-   VIDEO MODAL
-   ========================================= -->
-<div
-    id="videoModal"
-    class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/80 backdrop-blur-sm p-5">
-    <!-- CLOSE -->
-    <button
-        id="closeVideo"
-        class="absolute top-5 right-5 w-12 h-12 rounded-full bg-white text-black text-xl flex items-center justify-center hover:bg-[var(--color-secondary)] hover:text-white transition">
-        <i class="fa-solid fa-xmark"></i>
-    </button>
-    <!-- VIDEO WRAPPER -->
-    <div class="relative w-full max-w-5xl rounded-[28px] overflow-hidden shadow-2xl bg-black scale-[0.9] opacity-0 transition duration-300"
-        id="videoWrapper">
-        <video
-            id="popupVideo"
-            controls
-            autoplay
-            preload="none"
-            class="w-full h-full max-h-[85vh] bg-black">
-            <source src="" type="video/mp4">
-        </video>
-    </div>
-</div>
-<!-- =========================================
-   VIDEO MODAL SCRIPT
-   ========================================= -->
-<script>
-    const videoButtons = document.querySelectorAll('.video-btn');
-    const videoModal = document.getElementById('videoModal');
-    const popupVideo = document.getElementById('popupVideo');
-    const videoWrapper = document.getElementById('videoWrapper');
-    const closeVideo = document.getElementById('closeVideo');
-
-    videoButtons.forEach(button => {
-
-        button.addEventListener('click', () => {
-
-            const videoSrc = button.getAttribute('data-video');
-
-            popupVideo.querySelector('source').src = videoSrc;
-
-            popupVideo.load();
-
-            videoModal.classList.remove('hidden');
-            videoModal.classList.add('flex');
-
-            document.body.style.overflow = 'hidden';
-
-            setTimeout(() => {
-
-                videoWrapper.classList.remove('scale-[0.9]', 'opacity-0');
-                videoWrapper.classList.add('scale-100', 'opacity-100');
-
-            }, 50);
-
-        });
-
-    });
-
-    function closeVideoModal() {
-
-        videoWrapper.classList.remove('scale-100', 'opacity-100');
-        videoWrapper.classList.add('scale-[0.9]', 'opacity-0');
-
-        setTimeout(() => {
-
-            videoModal.classList.add('hidden');
-            videoModal.classList.remove('flex');
-
-            popupVideo.pause();
-            popupVideo.currentTime = 0;
-
-            document.body.style.overflow = '';
-
-        }, 250);
-
-    }
-
-    closeVideo.addEventListener('click', closeVideoModal);
-
-    videoModal.addEventListener('click', (e) => {
-
-        if (e.target === videoModal) {
-            closeVideoModal();
-        }
-
-    });
-</script>
 
 <!-- =========================================
    SERVICES SECTION
    ========================================= -->
-<section id="services" class="relative py-12 md:py-12 bg-[var(--color-soft-bg)] overflow-hidden">
+<section id="services" style="overflow: visible !important;">
     <!-- BACKGROUND SHAPES -->
     <div class="absolute top-0 right-0 w-[420px] h-[420px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 w-[320px] h-[320px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
         <div class="grid lg:grid-cols-[420px_1fr] gap-14 items-start">
             <!-- LEFT STICKY CONTENT -->
-            <div class="lg:sticky lg:top-28 reveal">
+            <div class="lg:sticky lg:top-[140px] self-start reveal">
                 <span class="section-tag">
                     Our Services
                 </span>
@@ -766,11 +703,11 @@ OUR STORY SECTION
                         Around You
                     </span>
                 </h2>
-                <p class="mt-7 text-[17px] leading-9">
+                <p class="mt-7 text-[16px] leading-9">
                     Beyond distribution, we provide expert technical support, cold-chain logistics, training, and consultation to help Nepal’s entire animal health ecosystem thrive.
                 </p>
                 <!-- CTA CARD -->
-                <div class="modern-card mt-10 p-7 bg-white border border-slate-100">
+                <div class="modern-card mt-10 p-7 bg-[var(--color-surface-200)] border border-slate-100">
                     <div class="flex items-start gap-4">
                         <div class="w-14 h-14 rounded-2xl bg-green-100 text-[var(--color-secondary)] flex items-center justify-center text-2xl flex-shrink-0">
                             <i class="fa-solid fa-headset"></i>
@@ -793,7 +730,7 @@ OUR STORY SECTION
             <!-- RIGHT SERVICES GRID -->
             <div class="grid sm:grid-cols-2 gap-6 reveal">
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 group">
+                <div class="modern-card bg-[var(--color-surface-200)] p-8 group">
                     <div class="w-16 h-16 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center text-3xl transition duration-300 group-hover:bg-[var(--color-primary)] group-hover:text-white">
                         <i class="fa-solid fa-stethoscope"></i>
                     </div>
@@ -805,7 +742,7 @@ OUR STORY SECTION
                     </p>
                 </div>
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 group">
+                <div class="modern-card bg-[var(--color-surface-200)] p-8 group">
                     <div class="w-16 h-16 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center text-3xl transition duration-300 group-hover:bg-[var(--color-primary)] group-hover:text-white">
                         <i class="fa-solid fa-truck-fast"></i>
                     </div>
@@ -817,7 +754,7 @@ OUR STORY SECTION
                     </p>
                 </div>
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 group">
+                <div class="modern-card bg-[var(--color-surface-200)] p-8 group">
                     <div class="w-16 h-16 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center text-3xl transition duration-300 group-hover:bg-[var(--color-primary)] group-hover:text-white">
                         <i class="fa-solid fa-snowflake"></i>
                     </div>
@@ -829,7 +766,7 @@ OUR STORY SECTION
                     </p>
                 </div>
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 group">
+                <div class="modern-card bg-[var(--color-surface-200)] p-8 group">
                     <div class="w-16 h-16 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center text-3xl transition duration-300 group-hover:bg-[var(--color-primary)] group-hover:text-white">
                         <i class="fa-solid fa-file-shield"></i>
                     </div>
@@ -841,7 +778,7 @@ OUR STORY SECTION
                     </p>
                 </div>
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 group">
+                <div class="modern-card bg-[var(--color-surface-200)] p-8 group">
                     <div class="w-16 h-16 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center text-3xl transition duration-300 group-hover:bg-[var(--color-primary)] group-hover:text-white">
                         <i class="fa-solid fa-graduation-cap"></i>
                     </div>
@@ -853,7 +790,7 @@ OUR STORY SECTION
                     </p>
                 </div>
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 group">
+                <div class="modern-card bg-[var(--color-surface-200)] p-8 group">
                     <div class="w-16 h-16 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center text-3xl transition duration-300 group-hover:bg-[var(--color-primary)] group-hover:text-white">
                         <i class="fa-solid fa-globe"></i>
                     </div>
@@ -872,12 +809,12 @@ OUR STORY SECTION
 <!-- =========================================
    GLOBAL PARTNERS SECTION
    ========================================= -->
-<section id="partners" class="py-12 md:py-12 bg-white overflow-hidden relative">
+<section id="partners">
     <!-- BACKGROUND -->
     <div class="absolute top-0 right-0 w-[400px] h-[400px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
         <!-- SECTION HEADER -->
-        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+        <div class="text-center max-w-3xl mx-auto mb-8 reveal">
             <span class="section-tag justify-center">
                 Key Partners
             </span>
@@ -887,15 +824,15 @@ OUR STORY SECTION
                     Global Partners
                 </span>
             </h2>
-            <p class="mt-6 text-[17px] leading-9">
+            <p class="mt-6 text-[16px] leading-9">
                 We collaborate with the world’s most trusted animal health manufacturers to deliver only the highest quality veterinary solutions across Nepal.
             </p>
         </div>
         <!-- SLIDER WRAPPER -->
         <div class="relative reveal">
             <!-- GRADIENTS -->
-            <div class="absolute left-0 top-0 bottom-0 w-24 z-20 bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
-            <div class="absolute right-0 top-0 bottom-0 w-24 z-20 bg-gradient-to-l from-white to-transparent pointer-events-none"></div>
+            <!-- <div class="absolute left-0 top-0 bottom-0 w-16 z-20 bg-gradient-to-r from-white to-transparent pointer-events-none"></div> -->
+            <!-- <div class="absolute right-0 top-0 bottom-0 w-16 z-20 bg-gradient-to-l from-white to-transparent pointer-events-none"></div> -->
             <!-- SLIDER -->
             <div
                 id="partnersSlider"
@@ -986,54 +923,28 @@ OUR STORY SECTION
                 </div>
             </div>
             <!-- NAVIGATION -->
-            <div class="flex items-center justify-center gap-4 mt-12">
+            <div class="flex items-center justify-center gap-4 mt-8">
                 <button
                     id="partnerPrev"
-                    class="w-14 h-14 rounded-full border border-gray-200 bg-white text-[var(--color-primary)] flex items-center justify-center text-xl hover:bg-[var(--color-primary)] hover:text-white transition">
+                    class="w-12 h-12 rounded-full border border-gray-200 bg-white text-[var(--color-primary)] flex items-center justify-center text-xl hover:bg-[var(--color-primary)] hover:text-white transition">
                     <i class="fa-solid fa-arrow-left"></i>
                 </button>
                 <button
                     id="partnerNext"
-                    class="w-14 h-14 rounded-full border border-gray-200 bg-white text-[var(--color-primary)] flex items-center justify-center text-xl hover:bg-[var(--color-primary)] hover:text-white transition">
+                    class="w-12 h-12 rounded-full border border-gray-200 bg-white text-[var(--color-primary)] flex items-center justify-center text-xl hover:bg-[var(--color-primary)] hover:text-white transition">
                     <i class="fa-solid fa-arrow-right"></i>
                 </button>
             </div>
         </div>
     </div>
 </section>
-<!-- =========================================
-   SLIDER SCRIPT
-   ========================================= -->
-<script>
-    const partnerSlider = document.getElementById('partnersSlider');
-    const partnerPrev = document.getElementById('partnerPrev');
-    const partnerNext = document.getElementById('partnerNext');
-
-    partnerNext.addEventListener('click', () => {
-
-        partnerSlider.scrollBy({
-            left: 320,
-            behavior: 'smooth'
-        });
-
-    });
-
-    partnerPrev.addEventListener('click', () => {
-
-        partnerSlider.scrollBy({
-            left: -320,
-            behavior: 'smooth'
-        });
-
-    });
-</script>
 
 <!-- =========================================
    NUMBERS / STATS SECTION
    ========================================= -->
-<section id="numbers" class="relativepy-12 md:py-12 bg-white overflow-hidden">
+<section id="numbers" style="background-color: white;">
     <!-- BACKGROUND -->
-    <div class="absolute inset-0 bg-[linear-gradient(to_bottom,#ffffff,#f8fafc)]"></div>
+    <div class="absolute inset-0 bg-[linear-gradient(to_bottom,var(--color-white),#f8fafc)]"></div>
     <!-- SHAPES -->
     <div class="absolute top-0 right-0 w-[380px] h-[380px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 w-[320px] h-[320px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
@@ -1051,7 +962,7 @@ OUR STORY SECTION
                         Our Numbers
                     </span>
                 </h2>
-                <p class="mt-7 text-[17px] leading-9 max-w-lg">
+                <p class="mt-7 text-[16px] leading-9 max-w-lg">
                     Over two decades, KVD has built a trusted nationwide veterinary distribution network powered by innovation, quality assurance, and global partnerships.
                 </p>
                 <!-- SMALL CTA -->
@@ -1072,7 +983,7 @@ OUR STORY SECTION
             <!-- RIGHT -->
             <div class="grid sm:grid-cols-2 gap-6 reveal">
                 <!-- LARGE CARD -->
-                <div class="sm:col-span-2 modern-card bg-[var(--color-primary)] p-10 md:p-12 overflow-hidden relative">
+                <div class="sm:col-span-2 modern-card bg-[var(--color-primary)] p-8 md:p-10">
                     <!-- Glow -->
                     <div class="absolute top-0 right-0 w-[240px] h-[240px] bg-white/10 rounded-full blur-3xl"></div>
                     <div class="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-8">
@@ -1095,7 +1006,7 @@ OUR STORY SECTION
                     </div>
                 </div>
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 border border-slate-100 group hover:border-[var(--color-primary)]/20">
+                <div class="modern-card bg-white p-6 border border-slate-100 group hover:border-[var(--color-primary)]/20">
                     <div class="flex items-start justify-between">
                         <div>
                             <span class="text-sm uppercase tracking-[0.15em] font-bold text-gray-400">
@@ -1111,12 +1022,12 @@ OUR STORY SECTION
                             <i class="fa-solid fa-handshake"></i>
                         </div>
                     </div>
-                    <p class="mt-6 text-[15px] leading-8">
+                    <p class="mt-6 text-[16px] leading-8">
                         Strategic partnerships with world-renowned veterinary manufacturers and suppliers.
                     </p>
                 </div>
                 <!-- CARD -->
-                <div class="modern-card bg-white p-8 border border-slate-100 group hover:border-[var(--color-primary)]/20">
+                <div class="modern-card bg-white p-6 border border-slate-100 group hover:border-[var(--color-primary)]/20">
                     <div class="flex items-start justify-between">
                         <div>
                             <span class="text-sm uppercase tracking-[0.15em] font-bold text-gray-400">
@@ -1132,7 +1043,7 @@ OUR STORY SECTION
                             <i class="fa-solid fa-users"></i>
                         </div>
                     </div>
-                    <p class="mt-6 text-[15px] leading-8">
+                    <p class="mt-6 text-[16px] leading-8">
                         Dedicated veterinary professionals, logistics experts, and technical advisors.
                     </p>
                 </div>
@@ -1140,44 +1051,7 @@ OUR STORY SECTION
         </div>
     </div>
 </section>
-<!-- =========================================
-   COUNT SCRIPT
-   ========================================= -->
-<script>
-    const counters = document.querySelectorAll(".count-val");
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    const el = entry.target;
-                    const target = +el.dataset.target;
-                    const duration = 1800;
-                    const start = performance.now();
-                    const animate = (time) => {
-                        const progress = Math.min(
-                            (time - start) / duration,
-                            1
-                        );
-                        const value = Math.floor(progress * target);
-                        el.textContent = value.toLocaleString();
-                        if (progress < 1) {
-                            requestAnimationFrame(animate);
-                        } else {
-                            el.textContent = target.toLocaleString();
-                        }
-                    };
-                    requestAnimationFrame(animate);
-                    observer.unobserve(el);
-                }
-            });
-        }, {
-            threshold: 0.4,
-        }
-    );
-    counters.forEach(counter => {
-        observer.observe(counter);
-    });
-</script>
+
 <!-- 
 <script>
 
@@ -1252,13 +1126,13 @@ OUR STORY SECTION
 <!-- =========================================
    SERVING ALL OF NEPAL
    ========================================= -->
-<section id="coverage" class="relativepy-12 md:py-12 overflow-hidden bg-[var(--color-soft-bg)]">
+<section id="coverage">
     <!-- BACKGROUND -->
     <div class="absolute top-0 left-0 w-[400px] h-[400px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 right-0 w-[320px] h-[320px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
         <!-- SECTION HEADER -->
-        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+        <div class="text-center max-w-3xl mx-auto mb-8 reveal">
             <span class="section-tag justify-center">
                 Our Reach
             </span>
@@ -1268,7 +1142,7 @@ OUR STORY SECTION
                     All of Nepal
                 </span>
             </h2>
-            <p class="mt-6 text-[17px] leading-9">
+            <p class="mt-5 text-[16px] leading-9">
                 Delivering trusted veterinary healthcare solutions across every province of Nepal through our nationwide distribution network.
             </p>
         </div>
@@ -1289,7 +1163,7 @@ OUR STORY SECTION
                         Himalayan Hills
                     </span>
                 </h3>
-                <p class="mt-7 text-[17px] leading-9 max-w-2xl">
+                <p class="mt-7 text-[16px] leading-9 max-w-2xl">
                     Our extensive supply chain and logistics infrastructure ensure that world-class veterinary medicines, vaccines, and feed supplements reach every region of Nepal efficiently and safely.
                 </p>
                 <!-- FEATURES -->
@@ -1375,7 +1249,7 @@ OUR STORY SECTION
                             </div>
                         </div>
                         <!-- PROVINCES -->
-                        <div class="mt-10 flex flex-wrap gap-4">
+                        <div class="mt-6 flex flex-wrap gap-4">
                             <div class="px-5 py-3 rounded-full bg-white/10 border border-white/10 text-white text-sm font-semibold">
                                 🏔 Koshi Province
                             </div>
@@ -1399,7 +1273,7 @@ OUR STORY SECTION
                             </div>
                         </div>
                         <!-- FOOTER -->
-                        <div class="mt-10 p-5 rounded-[24px] bg-white/10 border border-white/10 backdrop-blur-md">
+                        <div class="mt-6 p-5 rounded-[24px] bg-white/10 border border-white/10 backdrop-blur-md">
                             <div class="flex items-start gap-4">
                                 <div class="w-14 h-14 rounded-2xl bg-[var(--color-secondary)] text-white flex items-center justify-center text-2xl flex-shrink-0">
                                     <i class="fa-solid fa-location-dot"></i>
@@ -1424,13 +1298,13 @@ OUR STORY SECTION
 <!-- =========================================
    LATEST NEWS & ANNOUNCEMENTS
    ========================================= -->
-<section id="news" class="relativepy-12 md:py-12 overflow-hidden bg-[var(--color-soft-bg)]">
+<section id="news">
     <!-- BACKGROUND -->
     <div class="absolute top-0 right-0 w-[420px] h-[420px] bg-[var(--color-primary)]/5 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-[var(--color-secondary)]/10 rounded-full blur-3xl"></div>
     <div class="max-w-7xl mx-auto px-5 lg:px-8 relative z-10">
         <!-- HEADER -->
-        <div class="max-w-3xl reveal">
+        <div class="max-w-3xl mx-auto text-center reveal">
             <span class="section-tag">
                 Latest Updates
             </span>
@@ -1440,15 +1314,15 @@ OUR STORY SECTION
                     Announcements
                 </span>
             </h2>
-            <p class="mt-6 text-[17px] leading-9 max-w-2xl">
+            <p class="mt-6 text-[16px] leading-9 max-w-2xl">
                 Stay updated with the latest announcements, partnerships, technical programs, and veterinary industry news from Kantipur Vet Distributors.
             </p>
         </div>
         <!-- NEWS LAYOUT -->
-        <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-8 mt-16">
+        <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-8 mt-8">
             <!-- FEATURED NEWS -->
             <div class="reveal">
-                <div class="group relative overflow-hidden rounded-[36px] bg-[var(--color-primary)] p-10 md:p-12 h-full shadow-[0_20px_60px_rgba(52,47,127,0.15)]">
+                <div class="group rounded-[36px] bg-[var(--color-primary)] p-10 md:p-12 h-full shadow-[0_20px_60px_rgba(52,47,127,0.15)]">
                     <!-- GLOW -->
                     <div class="absolute top-0 right-0 w-[240px] h-[240px] bg-white/10 rounded-full blur-3xl"></div>
                     <div class="relative z-10">
@@ -1458,7 +1332,7 @@ OUR STORY SECTION
                             Latest Announcement
                         </div>
                         <!-- DATE -->
-                        <div class="mt-8 text-white/60 text-sm font-semibold tracking-wide uppercase">
+                        <div class="mt-5 text-white/60 text-sm font-semibold tracking-wide uppercase">
                             June 3, 2025
                         </div>
                         <!-- TITLE -->
@@ -1466,11 +1340,11 @@ OUR STORY SECTION
                             Important Notice Regarding Product Distribution & Dealer Verification
                         </h3>
                         <!-- TEXT -->
-                        <p class="mt-7 text-white/75 text-[17px] leading-9 max-w-2xl">
+                        <p class="mt-6 text-white/75 text-[16px] leading-9 max-w-2xl">
                             Kantipur Vet Distributors issues an important public notice regarding authorized dealer verification and official distribution channels for veterinary healthcare products across Nepal.
                         </p>
                         <!-- LINK -->
-                        <div class="mt-10">
+                        <div class="mt-8">
                             <a href="#"
                                 class="inline-flex items-center gap-3 text-[var(--color-secondary)] font-bold text-lg hover:gap-5 transition-all duration-300">
                                 Read Full Notice
@@ -1493,7 +1367,7 @@ OUR STORY SECTION
                                 New Partnership with Leading European Vaccine Manufacturer
                             </h4>
                         </div>
-                        <div class="w-12 h-12 rounded-2xl bg-[var(--color-primary)]/10 text-[var(--color-primary)] flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--color-primary)] group-hover:text-white transition duration-300">
+                        <div class="w-12 h-12 rounded-2xl text-[var(--color-primary)] flex items-center justify-center flex-shrink-0 group-hover:bg-[var(--color-primary)] group-hover:text-white transition duration-300" style=" background-color: rgba(52, 47, 127, 0.1);">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </div>
                     </div>
@@ -1552,7 +1426,7 @@ OUR STORY SECTION
 </section>
 
 <!-- ========================= CONTACT SECTION ========================= -->
-<section class="py-12 md:py-12 bg-white overflow-hidden">
+<section>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 items-start">
             <!-- ========================= LEFT CONTENT ========================= -->
@@ -1560,7 +1434,7 @@ OUR STORY SECTION
                 <p class="section-tag reveal">
                     Get In Touch
                 </p>
-                <h2 class="mt-5 text-3xl md:text-4xl font-bold leading-tight text-primary reveal">
+                <h2 class="mt-5 text-4xl md:text-5xl font-bold leading-tight text-primary reveal">
                     We’d Love To Hear From You.
                 </h2>
                 <p class="mt-5 text-gray-600 leading-8 reveal">
@@ -1705,6 +1579,31 @@ OUR STORY SECTION
     </div>
 </section>
 
+<!-- =========================================
+   VIDEO MODAL
+   ========================================= -->
+<div
+    id="videoModal"
+    class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/80 backdrop-blur-sm p-5">
+    <!-- CLOSE -->
+    <button
+        id="closeVideo"
+        class="absolute top-5 right-5 w-10 h-10 rounded-full bg-white text-black text-xl flex items-center justify-center hover:bg-[var(--color-secondary)] hover:text-white transition">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+    <!-- VIDEO WRAPPER -->
+    <div class="relative w-full max-w-5xl rounded-[28px] overflow-hidden shadow-2xl bg-black scale-[0.9] opacity-0 transition duration-300"
+        id="videoWrapper">
+        <video
+            id="popupVideo"
+            controls
+            autoplay
+            preload="none"
+            class="w-full h-full max-h-[80vh] bg-black">
+            <source src="" type="video/mp4">
+        </video>
+    </div>
+</div>
 
 <?php
 include 'include/footer.php';
