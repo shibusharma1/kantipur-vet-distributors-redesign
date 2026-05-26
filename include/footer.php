@@ -272,5 +272,12 @@
 <script src="assets/js/backtotop.js"></script>
 <!-- Scroll Animation -->
 <script src="assets/js/scroll-animation.js"></script>
+<!-- Video modal -->
+<script src="assets/js/videomodal.js"></script>
+<!-- slide script for partners section -->
+<script src="assets/js/slider.js"></script>
+<!-- counter script for number section -->
+<script src="assets/js/counter.js"></script>
 </body>
+
 </html>

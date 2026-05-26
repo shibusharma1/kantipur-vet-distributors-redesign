@@ -24,8 +24,8 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#342f7f',
-                        secondary: '#38ac4b',
+                        primary: "var(--color-primary)",
+                        secondary: "var(--color-secondary)",
                     }
                 }
             }
@@ -92,7 +92,7 @@
     </div> -->
 
     <!-- ========================= HEADER ========================= -->
-    <header id="main-header" class="scrolled">
+    <header id="main-header" class="scrolled border-b-2 border-secondary">
         <!-- ========================= DESKTOP HEADER ========================= -->
         <div class="hidden lg:block">
             <div class="max-w-7xl mx-auto px-6 xl:px-0">
