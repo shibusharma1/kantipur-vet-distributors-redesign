@@ -1,7 +1,7 @@
 :root {
   /* ================= PRIMARY BRAND ================= */
   --color-primary: #342f7f;
-  --color-secondary: #38ac4b;
+  --color-secondary: #9ECD4D;
 
   --color-facebook: #342f7f;
   --color-instagram: #ba0202;
@@ -68,6 +68,7 @@ body {
   color: var(--color-dark);
   background: #fff;
   overflow-x: hidden;
+  
 }
 img {
   max-width: 100%;
@@ -176,8 +177,8 @@ p {
 /* ========================= HEADER ========================= */
 #main-header {
   position: fixed;
-  /* top: 50px; */
-  top: 0px;
+  top: 44px;
+  /* top: 0px; */
   left: 0;
   width: 100%;
   z-index: 500;
