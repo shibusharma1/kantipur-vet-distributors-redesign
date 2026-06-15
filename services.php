@@ -82,120 +82,82 @@ include 'include/header.php';
 </section>
 <section>
     <div class="max-w-7xl mx-auto px-5 lg:px-8">
-
         <!-- Section Heading -->
         <div class="text-center max-w-3xl mx-auto mb-16 reveal">
-
             <span class="section-tag justify-center">
                 Why Choose KVD
             </span>
-
             <h2 class="mt-5 text-4xl md:text-5xl font-bold leading-tight">
                 Trusted By Veterinary
                 <span class="text-[var(--color-secondary)]">
                     Professionals
                 </span>
             </h2>
-
             <p class="mt-6 text-[16px] leading-8">
                 Delivering quality veterinary healthcare solutions through
                 innovation, expertise, and a nationwide support network.
             </p>
-
         </div>
-
         <!-- Cards -->
         <div class="grid lg:grid-cols-3 gap-8">
-
             <!-- Card 1 -->
             <div class="modern-card p-10 reveal group">
-
                 <div class="flex items-center justify-between">
-
                     <div
                         class="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl group-hover:bg-primary group-hover:text-white transition duration-300">
-
                         <i class="fa-solid fa-award"></i>
-
                     </div>
-
                     <span class="text-5xl font-bold text-primary/15">
                         01
                     </span>
-
                 </div>
-
                 <h3 class="mt-8 text-2xl font-bold">
                     23+ Years Experience
                 </h3>
-
                 <p class="mt-4 leading-8">
                     Decades of expertise in veterinary pharmaceuticals,
                     feed supplements and livestock healthcare solutions.
                 </p>
-
             </div>
-
             <!-- Card 2 -->
             <div class="modern-card p-10 reveal group">
-
                 <div class="flex items-center justify-between">
-
                     <div
                         class="w-16 h-16 rounded-2xl bg-[var(--color-secondary)]/10 text-[var(--color-secondary)] flex items-center justify-center text-3xl group-hover:bg-[var(--color-secondary)] group-hover:text-white transition duration-300">
-
                         <i class="fa-solid fa-shield-heart"></i>
-
                     </div>
-
                     <span class="text-5xl font-bold text-[var(--color-secondary)]/15">
                         02
                     </span>
-
                 </div>
-
                 <h3 class="mt-8 text-2xl font-bold">
                     Quality Assured
                 </h3>
-
                 <p class="mt-4 leading-8">
                     Products sourced from globally recognized manufacturers
                     with strict quality control and compliance standards.
                 </p>
-
             </div>
-
             <!-- Card 3 -->
             <div class="modern-card p-10 reveal group">
-
                 <div class="flex items-center justify-between">
-
                     <div
                         class="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl group-hover:bg-primary group-hover:text-white transition duration-300">
-
                         <i class="fa-solid fa-truck-fast"></i>
-
                     </div>
-
                     <span class="text-5xl font-bold text-primary/15">
                         03
                     </span>
-
                 </div>
-
                 <h3 class="mt-8 text-2xl font-bold">
                     Nationwide Network
                 </h3>
-
                 <p class="mt-4 leading-8">
                     Serving veterinarians, distributors and livestock farmers
                     across all provinces through an extensive supply network.
                 </p>
-
             </div>
-
         </div>
-
     </div>
 </section>
 <section>
@@ -315,7 +277,6 @@ include 'include/header.php';
         </div>
     </div>
 </section>
-
 <?php
 include 'include/footer.php';
 ?>

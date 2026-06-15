@@ -26,7 +26,6 @@
                     <p class="mt-6 text-white/75 leading-8 text-[15px]">
                         KPL is highly dedicated to research, production and planned marketing of veterinary allopathic medicines, animal nutrition, animal feed additives and healthcare solutions across Nepal.
                     </p>
-
                     <!-- Social -->
                     <div class="flex items-center gap-3 mt-8">
                         <a
@@ -34,36 +33,28 @@
                             class="icon-btn bg-facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-
                         <a
                             href="#"
                             class="icon-btn bg-instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-
                         <a
                             href="#"
                             class="icon-btn bg-twitter">
                             <i class="fab fa-x-twitter"></i>
                         </a>
-
                         <a
                             href="#"
                             class="icon-btn bg-youtube">
                             <i class="fab fa-youtube"></i>
                         </a>
-
                     </div>
                 </div>
-
                 <!-- ========================= Quick Links ========================= -->
                 <div class="reveal">
                     <h3 class="text-white text-xl font-semibold mb-8">
                         Quick Links
                     </h3>
-
-                    
-
                     <ul class="space-y-5">
                         <li>
                             <a
@@ -72,7 +63,6 @@
                                 About Us
                             </a>
                         </li>
-
                         <li>
                             <a
                                 href="mission.php"
@@ -80,7 +70,6 @@
                                 Mission & Vision
                             </a>
                         </li>
-
                         <li>
                             <a
                                 href="blog.php"
@@ -88,7 +77,6 @@
                                 News & Blogs
                             </a>
                         </li>
-
                         <li>
                             <a
                                 href="contact.php"
@@ -97,14 +85,12 @@
                             </a>
                         </li>
                     </ul>
-
                 </div>
                 <!-- ========================= Products ========================= -->
                 <div class="reveal">
                     <h3 class="text-white text-xl font-semibold mb-8">
                         Our Products
                     </h3>
-
                     <ul class="space-y-5">
                         <li>
                             <a
@@ -113,7 +99,6 @@
                                 Feed Supplement
                             </a>
                         </li>
-
                         <li>
                             <a
                                 href="product-list.php"
@@ -121,7 +106,6 @@
                                 Allopathic
                             </a>
                         </li>
-
                         <li>
                             <a
                                 href="product-list.php"
@@ -130,79 +114,64 @@
                             </a>
                         </li>
                     </ul>
-
                 </div>
-
                 <!-- ========================= Contact ========================= -->
                 <div class="reveal">
                     <h3 class="text-white text-xl font-semibold mb-8">
                         Contact Info
                     </h3>
-
                     <div class="space-y-4">
                         <!-- Office -->
                         <div class="flex gap-4">
                             <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
-
                             <div>
                                 <h5 class="text-white font-medium mb-2">
                                     Corporate Office
                                 </h5>
-
                                 <p class="text-white/70 text-sm leading-7">
                                     Balkumari, Lalitpur, Nepal
                                 </p>
                             </div>
                         </div>
-
                         <!-- Factory -->
                         <div class="flex gap-4">
                             <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
                                 <i class="fa-solid fa-industry"></i>
                             </div>
-
                             <div>
                                 <h5 class="text-white font-medium mb-2">
                                     Factory
                                 </h5>
-
                                 <p class="text-white/70 text-sm leading-7">
                                     Hokshe, Kavre
                                 </p>
                             </div>
                         </div>
-
                         <!-- Phone -->
                         <div class="flex gap-4">
                             <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
                                 <i class="fa-solid fa-phone"></i>
                             </div>
-
                             <div>
                                 <h5 class="text-white font-medium mb-2">
                                     Phone Number
                                 </h5>
-
                                 <p class="text-white/70 text-sm">
                                     +977-01-5186604
                                 </p>
                             </div>
-
                         </div>
-
                         <!-- Email -->
                         <div class="flex gap-4">
                             <div class="w-11 h-11 rounded-xl bg-white/10 flex items-center justify-center text-white flex-shrink-0">
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
-
                             <div>
                                 <h5 class="text-white font-medium mb-2">
                                     Email Address
                                 </h5>
-
                                 <p class="text-white/70 text-sm break-all">
                                     info@kantipurpharma.com
                                 </p>
@@ -213,7 +182,6 @@
             </div>
         </div>
     </div>
-
     <!-- ========================= Bottom Footer ========================= -->
     <div class="border-t border-white/10 bg-[#18153F]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -225,21 +193,18 @@
                         class="text-white/60 text-sm hover:text-white transition duration-300">
                         Terms & Conditions
                     </a>
-
                     <a
                         href="privacy-policy.php"
                         class="text-white/60 text-sm hover:text-white transition duration-300">
                         Privacy Policy
                     </a>
                 </div>
-
                 <!-- Center -->
                 <div class="text-center">
                     <p class="text-white/70 text-sm">
                         Copyright © 2024 Kantipur Pharmaceuticals Lab Limited.
                     </p>
                 </div>
-
                 <!-- Right -->
                 <div>
                     <p class="text-white/60 text-sm text-center lg:text-right">
@@ -253,14 +218,13 @@
         </div>
     </div>
 </footer>
-
 <!-- ========================= BACK TO TOP ========================= -->
 <button
     id="backToTop"
     class="fixed bottom-6 right-6 z-50 hidden items-center justify-center
-           w-12 h-12 rounded-full bg-secondary text-white shadow-xl
-           hover:-translate-y-1 hover:shadow-2xl
-           transition-all duration-300">
+   w-12 h-12 rounded-full bg-secondary text-white shadow-xl
+   hover:-translate-y-1 hover:shadow-2xl
+   transition-all duration-300">
     <i class="fa-solid fa-arrow-up text-sm"></i>
 </button>
 <!-- ========================= SCRIPTS ========================= -->
